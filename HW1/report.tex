@@ -21,7 +21,19 @@
 \begin{enumerate}
 	\item Given the first Petri net,
 	\begin{enumerate}[label=(\alph*)]
-		\item The formal definition is...
+		\item The formal definition is given by \\
+		$PN_1$= ($P$, $T$, $F$, $W$, $M_0$) $\mid$ \\
+		$P$ = \{$p_1, p_2, p_3, p_4, p_5, p_6, p_7, p_8$\}, \\
+		$T$ = \{$t_1, t_2, t_3, t_4, t_5, t_6$\}, \\
+		$F$ = \{ ($t_1$, $p_1$), ($p_3$, $t_1$), ($p_1$, $t_2$), \\
+		($p_1$, $t_2$), ($t_2$, $p_2$), ($t_2$, $p_4$),
+		($p_2$, $t_3$), ($p_2$, $t_3$), \\
+		($p_5$, $t_3$), ($t_3$, $p_3$), ($t_4$, $p_5$),
+		($t_4$, $p_8$), ($p_7$, $t_4$), \\ ($p_4$, $t_5$),
+		($p_6$, $t_5$), ($t_6$, $p_6$), ($p_8$, $t_6$)
+		 \}, \\
+   	    $W$ = \{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 \}, \\
+        $M_0$ = \{ 1, 0, 0, 0, 0, 1, 0, 0 \}
 		\item The coverability tree looks like...
 		\item The Petri net is/not bounded because...
 		\item The Petri net is/not live/L0-live/L1-live because...
@@ -29,13 +41,19 @@
 	
 	\item Given the second Petri net,
 	\begin{enumerate}[label=(\alph*)]
-		\item The formal definition is...
+		\item The formal definition is given by \\
+		$PN_2$= ($P$, $T$, $F$, $W$, $M_0$) $\mid$ \\
+		$P$ = \{$p_1, p_2, p_3, p_4$\}, \\
+		$T$ = \{$t_1, t_2, t_3$\}, \\
+		$F$ = \{ ($t_1$, $p_1$), ($p_1$, $t_1$), ($p_2$, $t_1$),
+		($p_3$, $t_1$), \\ ($t_2$, $p_2$), ($t_2$, $p_3$),
+		($p_4$, $t_2$), ($p_3$, $t_3$), ($t_3$, $p_4$) \} \\
+		$W$ = \{ 1, 1, 1, 1, 1, 1, 1, 1, 1 \}, \\
+        $M_0$ = \{ 1, 0, 1, 0 \}
 		\item The coverability tree looks like...
 		\item The Petri net is/not bounded because...
 		\item The Petri net is/not live/L0-live/L1-live because...
 	\end{enumerate}
 \end{enumerate}
-
-
 
 \end{document}
