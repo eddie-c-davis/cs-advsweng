@@ -36,9 +36,19 @@
    	    $W$ = \{ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 \}, \\
         $M_0$ = \{ 1, 0, 0, 0, 0, 1, 0, 0 \}
 
-		\item The coverability tree looks like:				
-		\item The Petri net is/not bounded because...
-		\item The Petri net is/not live/L0-live/L1-live because...
+		\item The coverability tree is given in Figure~\ref{fig:pn1cov}
+		\begin{figure}[ht]
+			\begin{center}
+				\includegraphics[scale=.5,keepaspectratio]{pn1cov}
+			\end{center}
+			\caption{Coverability graph for $PN_1$.}
+			\label{fig:pn1cov}
+		\end{figure}
+					
+		\item The Petri net is bounded because $\omega$ does not appear in any node of the coverability tree.
+		
+		\item The Petri net L1-live because every transition $t$
+		can be fired at least once in some firing sequence.
 	\end{enumerate}
 	
 	\item Given the second Petri net,
@@ -52,9 +62,22 @@
 		($p_4$, $t_2$), ($p_3$, $t_3$), ($t_3$, $p_4$) \} \\
 		$W$ = \{ 1, 1, 1, 1, 1, 1, 1, 1, 1 \}, \\
         $M_0$ = \{ 1, 0, 1, 0 \}
-		\item The coverability tree looks like...
-		\item The Petri net is/not bounded because...
-		\item The Petri net is/not live/L0-live/L1-live because...
+        
+		\item The coverability tree is given in
+		Figure~\ref{fig:pn2cov}
+		\begin{figure}[ht]
+			\begin{center}
+				\includegraphics[scale=.5,keepaspectratio]{pn2cov}
+			\end{center}
+			\caption{Coverability graph for $PN_2$.}
+			\label{fig:pn2cov}
+		\end{figure}
+		
+		\item The Petri net is not bounded because $\omega$
+		appears in several nodes of the coverability tree.
+		
+		\item The Petri net is L1-live because every transition $t$
+		can be fired at least once in some firing sequence.
 	\end{enumerate}
 \end{enumerate}
 
