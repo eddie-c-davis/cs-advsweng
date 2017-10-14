@@ -8,7 +8,8 @@
 %\usepackage[noend]{algpseudocode}
 \usepackage{enumitem}
 %\usepackage{epstopdf}
-\usepackage{tikz}
+%\usepackage{tikz}
+\usepackage{amssymb}
 
 \begin{document}
 
@@ -19,19 +20,39 @@
 \section*{HW2: Design Principles}
 
 \begin{enumerate}
-	\item Write a complete specification of the queue ADT (20 points).
+	\item Queue ADT specification with new, add, poll, peek, and isEmpty functions
+	where $x$ is of generic type $G$ and $q$ is a queue of type $QUEUE[G]$.
 	
 	\begin{enumerate}
 		\item Type: \textit{QUEUE[G]}, all queues of arbitrary type $G$.
 		\item Functions:
 		\begin{itemize}
-			\item \textit{new}: yields an empty queue, $q$.
-			\item \textit{add}: $QUEUE[G] \times G \rightarrow QUEUE[G]$
+			\item \texttt{new}: $\rightarrow QUEUE[G]$ \\
+			$creator$ function
+			\item \texttt{add}: $QUEUE[G] \times G \rightarrow QUEUE[G]$ \\
+			$command$ function
+			\item \texttt{poll}: $QUEUE[G] \rightarrowtail G$ \\
+			$command$ function			
+			\item \texttt{peek}: $QUEUE[G] \rightarrowtail G$ \\
+    		$query$ function
+			\item \texttt{isEmpty}: $QUEUE[G] \rightarrow BOOLEAN$ \\
+    		$query$ function			
 		\end{itemize}
 		
-		\item Axioms
-		
-		\item Preconditions
+		\item Axioms		
+		$\forall x:G, q:QUEUE[G]$,
+			\begin{enumerate}
+				\item \texttt{poll}(\texttt{add}(\texttt{new}, $x$)) = $x$
+				\item \texttt{peek}($q, x$) = \texttt{poll}($q, x$)
+				\item \texttt{isEmpty}(\texttt{new}) = \texttt{true}
+				\item \texttt{not empty}(\texttt{add}($q, x$)) = \texttt{true}
+        	\end{enumerate}		
+
+		\item Preconditions		
+		\begin{itemize}
+			\item \texttt{poll}($q: QUEUE[G]$) \texttt{requires not isEmpty}($q$)
+            \item \texttt{peek}($q: QUEUE[G]$) \texttt{requires not isEmpty}($q$)
+		\end{itemize}
 	\end{enumerate}
 
 	\item Class Design (20 points. 10 points for each).
