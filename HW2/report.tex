@@ -74,12 +74,53 @@
     	integer primitive \texttt{int}. However, if other properties or methods
     	needed to be added, it would be a reasonable abstraction.
 		
-		\item Consider the following variables in class SimulatedBank and related operations: ACCOUNT\_NUMBER, WITHDRAWALS\_TODAY, DAILY\_WINTHDRAWAL\_LIMIT, and BALANCE[]. How can you improve the design?
+		\item The variables \texttt{ACCOUNT\_NUMBER}, \texttt{WITHDRAWALS\_TODAY}, \texttt{DAILY\_WINTHDRAWAL\_LIMIT}, and \texttt{BALANCE}
+		in the \texttt{SimulatedBank} could be encapsulated into
+		a single class called \texttt{SimulatedAccount} with
+		attributes \texttt{number}, \texttt{withdrawalsToday},
+		\texttt{dailyWithdrawalLimit}, and \texttt{balance}.
+        The corresponding operations, such as \texttt{add} and
+        \texttt{subtract} could be replaced with methods like
+        \texttt{deposit} and \texttt{withdraw}. This abstraction
+        would provide a clear separation of concerns and 
+        application of object-oriented design principles.
 	\end{enumerate}
 
-	\item Command-Query Separation Principle (10 points).
-	
-	\item Design by Contract  (20 points. 10 points for each).
+	\item The command-query separation principle states that every method should either be a command that performs an action
+	(mutator), or a query that returns data (accessor), but not both. The \texttt{ATM} class does \textbf{not} violate the CQS principle.
+	All of the \textit{get} methods (e.g., \texttt{getID},
+	\texttt{getPlace}, \texttt{getBankName}) return references to the
+	corresponding instance variables and do nothing more. While the
+    command	methods (e.g., \texttt{switchOn}, \texttt{switchOff},
+	\texttt{performStartup}, modify the object state, but \texttt{performShutdown}) return nothing (\texttt{void} type).
+		
+	\item Consider the precondition of method subtract in class Money:
+	public void subtract(Money amountToSubtract)
+	\begin{enumerate}
+	    \item The \texttt{this.cents - amountToSubtract.cents} $\geq$ 0 precondition of the \texttt{subtract} method
+	    is a demanding precondition because the responsibility
+	    to satisfy it is deferred to the client. If the client
+	    does not satisfy it, the \texttt{cents} variable will
+	    be negative which may produce incorrect behavior
+	    depending on the application.\\
+	    The precondition is reasonable and available because
+	    the client need only call the \texttt{Money.lessEqual}
+	    method before invoking \texttt{subtract} to determine
+	    whether the precondition is satisifed.
+	    
+	    \item The \texttt{CashDispenser.dispenseCash} client
+	    method does not check the \texttt{subtract} precondition
+	    but instead defers it to its own precondition that
+	    \texttt{amount} $\leq$ \texttt{cashOnHand}, as does
+	    the \texttt{Simulation.dispenseCash} method. The
+	    \texttt{SimulatedBank.withdrawal} method checks the
+	    precondition and returns a \texttt{Failure} state if
+	    it is violated, as does the \texttt{transfer} method.
+	    The \texttt{Withdrawal.completeTransaction} method calls
+	    \texttt{CashDispenser.dispenseCash} without checking
+	    the precondition, so the possibility of a violation
+	    exists.
+	\end{enumerate}
 	
 	\item Class Invariant  (20 points. 10 points for each).
 	
