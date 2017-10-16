@@ -170,7 +170,22 @@
 	    needed to solve these problems.
     \end{enumerate} 
     	
-    \item Is the class hierarchy of Transaction, Withdrawal, Transfer, Deposit, and Inquiry a good application of inheritance? Justify your answer.
+    \item In general, the class hierarchy of \texttt{Transaction} as an
+    abstract class, and \texttt{Withdrawal}, \texttt{Transfer},
+    \texttt{Deposit}, and \texttt{Inquiry} as its concrete subclasses is a
+    good application of inheritance, because they all satisfy an ``is-a''
+    relationship. The \texttt{getSpecificsFromCustomer} and
+    \texttt{completeTransaction} methods are abstract and is implemented
+    by each of the subclasses. The rule of change is satisfied as every
+    \texttt{Withdrawal} is always a \texttt{Transaction} for example, and
+    the relationships should not change at runtime. The polymorphism rule
+    is also satisfied because a variable of type \texttt{Transaction} can
+    become a \texttt{Withdrawal}, \texttt{Transfer}, \texttt{Deposit}, or
+    \texttt{Inquiry} at runtime (dynamic binding). \\
+    However, there is a violation of good abstraction principles in the static
+    \texttt{makeTransaction} method of the \texttt{Transaction} class,
+    is it explicitly refers to its subclasses. This is not a good use of
+    inheritance, as a superclass should have no knowledge of its subclasses.
 
 \end{enumerate}
 
