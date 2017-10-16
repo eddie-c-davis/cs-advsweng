@@ -10,6 +10,7 @@
 %\usepackage{epstopdf}
 %\usepackage{tikz}
 \usepackage{amssymb}
+%\usepackage{listings}
 
 \begin{document}
 
@@ -55,8 +56,7 @@
 		\end{itemize}
 	\end{enumerate}
 
-	\item Class Design (20 points. 10 points for each).
-	
+	\item 	
 	\begin{enumerate}
 		\item 
 		The \texttt{ATM} class mixes business logic and networking. By implementing the \texttt{Runnable} interface, it is also mixes threading logic. Otherwise, 
@@ -124,9 +124,50 @@
 	
 	\item 
 	\begin{enumerate}
-		\item For an object of ATM class, is it possible that \texttt{switchOn} is false and
-		\texttt{state=SERVING\_CUSTOMER\_STATE} is true? 
-	    \item For an object of \texttt{Money} class, is it possible that this.cents<0?
+		\item Yes, it is possible for the \texttt{switchOn} variable to be
+		\texttt{false} and \texttt{state} equal to
+		\texttt{SERVING\_CUSTOMER\_STATE} in the \texttt{ATM} class. \\
+		Consider the code snippet below:
+				
+		\begin{verbatim}		
+		ATM atm = new ATM(1, "SUB", "MyBank", "127.0.0.1");  // #1
+        // switchOn==false AND state==OFF_STATE
+		atm.switchOn();	                                     // #2
+		// switchOn==true AND state==OFF_STATE	     
+		atm.run();                                           // #3
+		// switchOn==true AND state==IDLE_STATE
+		atm.cardInserted();                                  // #4
+		// switchOn==true AND state==IDLE_STATE
+		atm.run();                                           // #5
+		// switchOn==true AND atm.state==SERVING_CUSTOMER_STATE
+		atm.switchOff();                                     // #6
+		// switchOn==false AND state==SERVING_CUSTOMER_STATE
+		atm.run();                                           // #7
+		// switchOn==false AND state==IDLE_STATE
+		...
+		\end{verbatim}		
+		
+		The comment to the right of each statement indicates the line number,
+		and the comment after each statement the values of the
+		\texttt{switchOn} and \texttt{state} variables after each line is
+		executed. There is a time interval after \texttt{cardInserted} and
+		\texttt{run} have been called (lines 4 and 5), that if the
+		\texttt{switchOff} method is called (line 6), that \texttt{switchOn}
+		will be \texttt{false}, and \texttt{state} will be
+		\texttt{SERVING\_CUSTOMER\_STATE} before \texttt{run} is called
+		again (line 7) and sets \texttt{state} back to \texttt{IDLE\_STATE}.
+		
+	    \item Yes, there are four methods that could possiblet set
+	    \texttt{this.cents} less than zero in the \texttt{Money} class. 
+	    The constructor \texttt{Money(int dollars, int cents)}, does not ensure
+	    that either \texttt{dollars} or \texttt{cents} are greater than or equal
+	    to zero. Nor does the copy constructor \texttt{Money(Money toCopy)}
+	    check that \texttt{toCopy.cents} is not less than zero. The \texttt{add}
+	    method does not ensure that \texttt{amountToAdd} is non-negative. Nor
+	    does the \texttt{subtract} method ensure that \texttt{amountToSubtract}
+	    is not greater than \texttt{this.cents}, despite having a precondition
+	    comment stating that this must be so. A class invariant would be
+	    needed to solve these problems.
     \end{enumerate} 
     	
     \item Is the class hierarchy of Transaction, Withdrawal, Transfer, Deposit, and Inquiry a good application of inheritance? Justify your answer.
