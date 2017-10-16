@@ -21,8 +21,8 @@
 \section*{HW2: Design Principles}
 
 \begin{enumerate}
-	\item Queue ADT specification with new, add, poll, peek, and isEmpty functions
-	where $x$ is of generic type $G$ and $q$ is a queue of type $QUEUE[G]$.
+	\item The $QUEUE$ ADT specification is given below with \texttt{new, add, poll, peek}, and \texttt{isEmpty} functions, and
+	variables $x$, of generic type $G$, and $q$, type $QUEUE[G]$.
 	
 	\begin{enumerate}
 		\item Type: \textit{QUEUE[G]}, all queues of arbitrary type $G$.
@@ -74,7 +74,8 @@
     	integer primitive \texttt{int}. However, if other properties or methods
     	needed to be added, it would be a reasonable abstraction.
 		
-		\item The variables \texttt{ACCOUNT\_NUMBER}, \texttt{WITHDRAWALS\_TODAY}, \texttt{DAILY\_WINTHDRAWAL\_LIMIT}, and \texttt{BALANCE}
+		\item The variables \texttt{ACCOUNT\_NUMBER}, \texttt{WITHDRAWALS\_TODAY}, \\ \texttt{DAILY\_WINTHDRAWAL\_LIMIT},
+		and \texttt{BALANCE}
 		in the \texttt{SimulatedBank} could be encapsulated into
 		a single class called \texttt{SimulatedAccount} with
 		attributes \texttt{number}, \texttt{withdrawalsToday},
@@ -109,14 +110,14 @@
 	    whether the precondition is satisifed.
 	    
 	    \item The \texttt{CashDispenser.dispenseCash} client
-	    method does not check the \texttt{subtract} precondition
+	    method does not check the \\ \texttt{subtract} precondition
 	    but instead defers it to its own precondition that
 	    \texttt{amount} $\leq$ \texttt{cashOnHand}, as does
 	    the \texttt{Simulation.dispenseCash} method. The
 	    \texttt{SimulatedBank.withdrawal} method checks the
 	    precondition and returns a \texttt{Failure} state if
 	    it is violated, as does the \texttt{transfer} method.
-	    The \texttt{Withdrawal.completeTransaction} method calls
+	    The \texttt{Withdrawal.completeTransaction} method calls \\
 	    \texttt{CashDispenser.dispenseCash} without checking
 	    the precondition, so the possibility of a violation
 	    exists.
@@ -130,19 +131,19 @@
 		Consider the code snippet below:
 				
 		\begin{verbatim}		
-		ATM atm = new ATM(1, "SUB", "MyBank", "127.0.0.1");  // #1
+		ATM atm = new ATM(1, "SUB", "MyBank", "127.0.0.1");    // 1
         // switchOn==false AND state==OFF_STATE
-		atm.switchOn();	                                     // #2
+		atm.switchOn();	                                       // 2
 		// switchOn==true AND state==OFF_STATE	     
-		atm.run();                                           // #3
+		atm.run();                                             // 3
 		// switchOn==true AND state==IDLE_STATE
-		atm.cardInserted();                                  // #4
+		atm.cardInserted();                                    // 4
 		// switchOn==true AND state==IDLE_STATE
-		atm.run();                                           // #5
+		atm.run();                                             // 5
 		// switchOn==true AND atm.state==SERVING_CUSTOMER_STATE
-		atm.switchOff();                                     // #6
+		atm.switchOff();                                       // 6
 		// switchOn==false AND state==SERVING_CUSTOMER_STATE
-		atm.run();                                           // #7
+		atm.run();                                             // 7
 		// switchOn==false AND state==IDLE_STATE
 		...
 		\end{verbatim}		
@@ -171,7 +172,7 @@
     \end{enumerate} 
     	
     \item In general, the class hierarchy of \texttt{Transaction} as an
-    abstract class, and \texttt{Withdrawal}, \texttt{Transfer},
+    abstract class, and \\ \texttt{Withdrawal}, \texttt{Transfer},
     \texttt{Deposit}, and \texttt{Inquiry} as its concrete subclasses is a
     good application of inheritance, because they all satisfy an ``is-a''
     relationship. The \texttt{getSpecificsFromCustomer} and
@@ -181,10 +182,11 @@
     the relationships should not change at runtime. The polymorphism rule
     is also satisfied because a variable of type \texttt{Transaction} can
     become a \texttt{Withdrawal}, \texttt{Transfer}, \texttt{Deposit}, or
-    \texttt{Inquiry} at runtime (dynamic binding). \\
-    However, there is a violation of good abstraction principles in the static
-    \texttt{makeTransaction} method of the \texttt{Transaction} class,
-    is it explicitly refers to its subclasses. This is not a good use of
+    \texttt{Inquiry} at runtime (dynamic binding).
+    
+    However, there is a violation of good abstraction principles in the
+    static \\ \texttt{makeTransaction} method of the \texttt{Transaction}
+    class, is it explicitly refers to its subclasses. This is not a good use of
     inheritance, as a superclass should have no knowledge of its subclasses.
 
 \end{enumerate}
