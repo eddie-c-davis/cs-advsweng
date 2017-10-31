@@ -1,0 +1,194 @@
+% The \documentclass command is the first command in a LaTeX file.
+\documentclass{report}
+
+\pagenumbering{arabic}
+
+\usepackage{graphicx}
+%\usepackage{algorithm}
+%\usepackage[noend]{algpseudocode}
+\usepackage{enumitem}
+%\usepackage{epstopdf}
+%\usepackage{tikz}
+\usepackage{amssymb}
+%\usepackage{listings}
+
+\begin{document}
+
+\subsection*{Eddie Davis}
+\textbf{CS 573}\\
+\textbf{10/16/2017}\\
+
+\section*{HW2: Design Principles}
+
+\begin{enumerate}
+	\item The $QUEUE$ ADT specification is given below with \texttt{new, add, poll, peek}, and \texttt{isEmpty} functions, and
+	variables $x$, of generic type $G$, and $q$, type $QUEUE[G]$.
+	
+	\begin{enumerate}
+		\item Type: \textit{QUEUE[G]}, all queues of arbitrary type $G$.
+		\item Functions:
+		\begin{itemize}
+			\item \texttt{new}: $\rightarrow QUEUE[G]$ \\
+			$creator$ function
+			\item \texttt{add}: $QUEUE[G] \times G \rightarrow QUEUE[G]$ \\
+			$command$ function
+			\item \texttt{poll}: $QUEUE[G] \rightarrowtail G$ \\
+			$command$ function			
+			\item \texttt{peek}: $QUEUE[G] \rightarrowtail G$ \\
+    		$query$ function
+			\item \texttt{isEmpty}: $QUEUE[G] \rightarrow BOOLEAN$ \\
+    		$query$ function			
+		\end{itemize}
+		
+		\item Axioms		
+		$\forall x:G, q:QUEUE[G]$,
+			\begin{enumerate}
+				\item \texttt{poll}(\texttt{add}(\texttt{new}, $x$)) = $x$
+				\item \texttt{peek}($q, x$) = \texttt{poll}($q, x$)
+				\item \texttt{isEmpty}(\texttt{new}) = \texttt{true}
+				\item \texttt{not isEmpty}(\texttt{add}($q, x$)) = \texttt{true}
+        	\end{enumerate}		
+
+		\item Preconditions		
+		\begin{itemize}
+			\item \texttt{poll}($q: QUEUE[G]$) \texttt{requires not isEmpty}($q$)
+            \item \texttt{peek}($q: QUEUE[G]$) \texttt{requires not isEmpty}($q$)
+		\end{itemize}
+	\end{enumerate}
+
+	\item 	
+	\begin{enumerate}
+		\item 
+		The \texttt{ATM} class mixes business logic and networking. By implementing the \texttt{Runnable} interface, it is also mixes threading logic. Otherwise, 
+		it provides a good abstraction, it is a noun with method names corresponding
+		to the proper verbs describing its functionality, e.g., \texttt{switchOn},
+		\texttt{switchOff}, \texttt{performStartup}, and \texttt{performShutdown}. \\
+		
+		The \texttt{Money} class is also a good abstraction, however one does question
+		whether it is necessary. Most of its methods involve mathematical
+    	(\texttt{add}, \texttt{subtract}) or comparative (\texttt{lessEqual})
+    	functions that could be supported by a standard library class such as \texttt{Long}. Only the \texttt{toString} method is money specific,
+    	and could be supported by the \texttt{Locale} class. \\
+    	
+    	Similarly, the \texttt{Card} class could easily be replaced by an
+    	integer primitive \texttt{int}. However, if other properties or methods
+    	needed to be added, it would be a reasonable abstraction.
+		
+		\item The variables \texttt{ACCOUNT\_NUMBER}, \texttt{WITHDRAWALS\_TODAY}, \\ \texttt{DAILY\_WINTHDRAWAL\_LIMIT},
+		and \texttt{BALANCE}
+		in the \texttt{SimulatedBank} could be encapsulated into
+		a single class called \texttt{SimulatedAccount} with
+		attributes \texttt{number}, \texttt{withdrawalsToday},
+		\texttt{dailyWithdrawalLimit}, and \texttt{balance}.
+        The corresponding operations, such as \texttt{add} and
+        \texttt{subtract} could be replaced with methods like
+        \texttt{deposit} and \texttt{withdraw}. This abstraction
+        would provide a clear separation of concerns and 
+        application of object-oriented design principles.
+	\end{enumerate}
+
+	\item The command-query separation principle states that every method should either be a command that performs an action
+	(mutator), or a query that returns data (accessor), but not both. The \texttt{ATM} class does \textbf{not} violate the CQS principle.
+	All of the \textit{get} methods (e.g., \texttt{getID},
+	\texttt{getPlace}, \texttt{getBankName}) return references to the
+	corresponding instance variables and do nothing more. While the
+    command	methods (e.g., \texttt{switchOn}, \texttt{switchOff},
+	\texttt{performStartup}, modify the object state, but \texttt{performShutdown}) return nothing (\texttt{void} type).
+		
+	\item Consider the precondition of method subtract in class Money:
+	public void subtract(Money amountToSubtract)
+	\begin{enumerate}
+	    \item The \texttt{this.cents - amountToSubtract.cents} $\geq$ 0 precondition of the \texttt{subtract} method
+	    is a demanding precondition because the responsibility
+	    to satisfy it is deferred to the client. If the client
+	    does not satisfy it, the \texttt{cents} variable will
+	    be negative which may produce incorrect behavior
+	    depending on the application.\\
+	    The precondition is reasonable and available because
+	    the client need only call the \texttt{Money.lessEqual}
+	    method before invoking \texttt{subtract} to determine
+	    whether the precondition is satisifed.
+	    
+	    \item The \texttt{CashDispenser.dispenseCash} client
+	    method does not check the \\ \texttt{subtract} precondition
+	    but instead defers it to its own precondition that
+	    \texttt{amount} $\leq$ \texttt{cashOnHand}, as does
+	    the \texttt{Simulation.dispenseCash} method. The
+	    \texttt{SimulatedBank.withdrawal} method checks the
+	    precondition and returns a \texttt{Failure} state if
+	    it is violated, as does the \texttt{transfer} method.
+	    The \texttt{Withdrawal.completeTransaction} method calls \\
+	    \texttt{CashDispenser.dispenseCash} without checking
+	    the precondition, so the possibility of a violation
+	    exists.
+	\end{enumerate}
+	
+	\item 
+	\begin{enumerate}
+		\item Yes, it is possible for the \texttt{switchOn} variable to be
+		\texttt{false} and \texttt{state} equal to
+		\texttt{SERVING\_CUSTOMER\_STATE} in the \texttt{ATM} class. \\
+		Consider the code snippet below:
+				
+		\begin{verbatim}		
+		ATM atm = new ATM(1, "SUB", "MyBank", "127.0.0.1");    // 1
+        // switchOn==false AND state==OFF_STATE
+		atm.switchOn();	                                       // 2
+		// switchOn==true AND state==OFF_STATE	     
+		atm.run();                                             // 3
+		// switchOn==true AND state==IDLE_STATE
+		atm.cardInserted();                                    // 4
+		// switchOn==true AND state==IDLE_STATE
+		atm.run();                                             // 5
+		// switchOn==true AND atm.state==SERVING_CUSTOMER_STATE
+		atm.switchOff();                                       // 6
+		// switchOn==false AND state==SERVING_CUSTOMER_STATE
+		atm.run();                                             // 7
+		// switchOn==false AND state==IDLE_STATE
+		...
+		\end{verbatim}		
+		
+		The comment to the right of each statement indicates the line number,
+		and the comment after each statement the values of the
+		\texttt{switchOn} and \texttt{state} variables after each line is
+		executed. There is a time interval after \texttt{cardInserted} and
+		\texttt{run} have been called (lines 4 and 5), that if the
+		\texttt{switchOff} method is called (line 6), that \texttt{switchOn}
+		will be \texttt{false}, and \texttt{state} will be
+		\texttt{SERVING\_CUSTOMER\_STATE} before \texttt{run} is called
+		again (line 7) and sets \texttt{state} back to \texttt{IDLE\_STATE}.
+		
+	    \item Yes, there are four methods that could possiblet set
+	    \texttt{this.cents} less than zero in the \texttt{Money} class. 
+	    The constructor \texttt{Money(int dollars, int cents)}, does not ensure
+	    that either \texttt{dollars} or \texttt{cents} are greater than or equal
+	    to zero. Nor does the copy constructor \texttt{Money(Money toCopy)}
+	    check that \texttt{toCopy.cents} is not less than zero. The \texttt{add}
+	    method does not ensure that \texttt{amountToAdd} is non-negative. Nor
+	    does the \texttt{subtract} method ensure that \texttt{amountToSubtract}
+	    is not greater than \texttt{this.cents}, despite having a precondition
+	    comment stating that this must be so. A class invariant would be
+	    needed to solve these problems.
+    \end{enumerate} 
+    	
+    \item In general, the class hierarchy of \texttt{Transaction} as an
+    abstract class, and \\ \texttt{Withdrawal}, \texttt{Transfer},
+    \texttt{Deposit}, and \texttt{Inquiry} as its concrete subclasses is a
+    good application of inheritance, because they all satisfy an ``is-a''
+    relationship. The \texttt{getSpecificsFromCustomer} and
+    \texttt{completeTransaction} methods are abstract and is implemented
+    by each of the subclasses. The rule of change is satisfied as every
+    \texttt{Withdrawal} is always a \texttt{Transaction} for example, and
+    the relationships should not change at runtime. The polymorphism rule
+    is also satisfied because a variable of type \texttt{Transaction} can
+    become a \texttt{Withdrawal}, \texttt{Transfer}, \texttt{Deposit}, or
+    \texttt{Inquiry} at runtime (dynamic binding).
+    
+    However, there is a violation of good abstraction principles in the
+    static \\ \texttt{makeTransaction} method of the \texttt{Transaction}
+    class, is it explicitly refers to its subclasses. This is not a good use of
+    inheritance, as a superclass should have no knowledge of its subclasses.
+
+\end{enumerate}
+
+\end{document}
