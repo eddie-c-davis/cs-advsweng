@@ -21,11 +21,81 @@
 \section*{HW3: SOLID and Refactoring}
 
 \begin{enumerate}
-	\item Covariant Argument Type (10 points)
+	\item \textbf{Covariant Argument Type}
 	
-	\item Open-Closed Principle (10 points) 
+	This code violates the Liskov Substitution Principle (LSP) because an
+	instance of the base class \texttt{CatShelter} cannot reliably be
+	substituted for an instance of \texttt{AnimalShelter}. Assume,
+	for example, that some client code contained a reference to an \texttt{AnimalShelter} object, and that it was replaced with an instance of
+	\texttt{CatShelter}. If the client attempted to invoke the \texttt{putAnimal}
+	method with an instance of another \texttt{Animal} subclass, e.g.,
+    \texttt{Dog}, this would produce a runtime error as the \texttt{CatShelter}
+    class has overriden the \texttt{putAnimal} method with argument type
+    \texttt{Cat}, and no method signature \texttt{putAnimal(Dog dog)} exists.
+	
+	In subcontracting terms, this is a problem because the \texttt{Cat} type
+	in the \texttt{putAnimal} method imposes a stricter precondition,
+	but overriden methods in subclasses should have weaker preconditions,
+	otherwise the subcontract between the client and supplier is violated.
+	
+	The \texttt{Cat} return type of the overriden \texttt{getAnimal()} method
+	is not a violation of the LSP because if the client with its
+	\texttt{AnimalShelter} object invokes that method and assigns it 
+	to an object of type \texttt{Animal}, a \texttt{Cat} object is-a \texttt{Animal} and should behave like one.
+	
+	\item \textbf{Open-Closed Principle}
+	
+	The \texttt{AreaCalculator.Area(Shape[] shapes)} method violates the 
+	Open-Closed Principle (OCP) because the code within the \texttt{for}
+	loop explicitly references the specific subclasses of the \texttt{Shape}
+	class, \texttt{Rectangle} and \texttt{Circle}. This means that in order
+	to add another type of shape, e.g., \texttt{Triangle}, requires the
+	\texttt{Area} method to be modified. Thus, the class is \textit{not}
+	closed for modification.
+	
+	The code could be improved by adding an \texttt{Area} method to the
+	\texttt{Shape} abstract class, which is then implemented by each of the
+	subclasses. Then the \texttt{AreaCalculator.Area} method only needs to
+	call the \texttt{Area} method of each \texttt{Shape} object. Please see
+	the following code for example.
+	
+	\begin{verbatim}
+public abstract class Shape {
+    public double Area();
+}
+    
+public class Rectangle extends Shape {
+    public double Area() {
+        return rectangle.Width * rectangle.Height;
+    }
+}
+    
+public class Circle extends Shape {
+    public double Area() {
+        return circle.Radius * circle.Radius * Math.PI;
+    }
+}
+    
+public class Triangle extends Shape {
+    public double Area() {
+        return 0.5 * rectangle.Width * rectangle.Height;
+    }
+}
 
-	\item Refactoring (30 points)
+public class AreaCalculator {
+    public double Area(Shape[] shapes) {
+        double area = 0.0;
+        for (Shape shape: shapes) {
+            area += shape.Area();
+        }
+        return area;
+     }
+}
+	\end{verbatim}
+
+	\item \textbf{Refactoring}
+
+    The TicTacToe program has been refactored in the following ways:
 
 \end{enumerate}
 
