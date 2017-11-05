@@ -98,7 +98,7 @@ public class AreaCalculator {
     The TicTacToe program has been refactored in the following ways:
     
     \begin{enumerate}
-\item The TTTGraphics2P construcor is too long (more than a page). It has been 
+\item The \texttt{TTTGraphics2P} constructor is too long (more than a page). It has been 
 refactored by adding the \texttt{addMouseListener} method.
  
 \item The \texttt{DrawCanvas} class is poorly named (it is a verb), renamed to
@@ -116,16 +116,19 @@ its responsibilities have split into three methods: \texttt{drawGridLines, drawS
 added (such as a three player version of TTT with \texttt{Star} shape added), all of the supporting code would need to be modified. This would result in a violation of the Open-
 Closed Principle. Instead, the \texttt{Seed} and \texttt{GameState} should be converted
 into class hierarchies, allowing the behavior differentiation to be handled via
-polymorphism, rather than control statements.
+polymorphism, rather than control statements. The code has been refactored, adding
+classes \texttt{Seed, Empty, Cross, Nought}, and \texttt{GameState}, 
  
 \item The \texttt{isWon} method uses a complex boolean expression to determine whether
 the game
  is won. The expression should be decomposed into a set of boolean methods.
  The row and column values are also hard-coded, meaning the code can only support a 3X3
- grid size. The expression has been decomposed into four methods: isRowWon, isColWon,
- isFwdDiagWon, isRevDiagWon. Each contains a loop dependent on the number of rows and
- columns so would work for a larger grid size as well.
+ grid size. The expression has been decomposed into four methods: \texttt{isRowWon,
+ 	isColWon, isFwdDiagWon}, and \texttt{isRevDiagWon}. Each contains a loop
+ dependent on the number of rows and columns, so would work for a larger grid size as well.
     \end{enumerate}
+
+Please find the refactored code in the attached file \texttt{TTTGraphics2P.java}.
 
 \end{enumerate}
 

@@ -27,13 +27,10 @@ public class TTTGraphics2P extends JFrame {
    public final Seed EMPTY_SEED = new Empty();
    public final Seed CROSS_SEED = new Cross();
    public final Seed NOUGHT_SEED = new Nought();
-
-   // Use an enumeration (inner class) to represent the various states of the game
-   public enum GameState {
-      PLAYING, DRAW, CROSS_WON, NOUGHT_WON
-   }
    
-   private GameState currentState;  // the current game state
+   public final GameState PLAYING_STATE = new PlayingState();
+   public final GameState WON_STATE = new WonState();
+   public final GameState DRAW_STATE = new DrawState();
  
    // Use an abstract class (inner class) to represent the seeds and cell contents
    abstract class Seed {
@@ -94,8 +91,35 @@ public class TTTGraphics2P extends JFrame {
         }
     }
 
+    // Use an abstract class (inner class) to represent the various states of the game
+    abstract class GameState {
+        abstract void updateStatus(JLabel statusBar, Seed currentPlayer);
+    }
+
+    class PlayingState extends GameState {
+        void updateStatus(JLabel statusBar, Seed currentPlayer) {
+            statusBar.setForeground(Color.BLACK);
+            statusBar.setText(currentPlayer.symbol() + "'s Turn");
+        }
+    }
+
+    class DrawState extends GameState {
+        void updateStatus(JLabel statusBar, Seed currentPlayer) {
+            statusBar.setForeground(Color.RED);
+            statusBar.setText("It's a Draw! Click to play again.");
+        }
+    }
+
+    class WonState extends GameState {
+        void updateStatus(JLabel statusBar, Seed currentPlayer) {
+            statusBar.setForeground(Color.RED);
+            statusBar.setText("'" + currentPlayer.symbol() + "' Won! Click to play again.");
+        }
+    }
+
    private Seed currentPlayer;  // the current player
    private Seed[][] board   ; // Game board of ROWS-by-COLS cells
+   private GameState currentState;  // the current game state
    private DrawingCanvas canvas; // Drawing canvas (JPanel) for the game board
    private JLabel statusBar;  // Status Bar
  
@@ -136,9 +160,9 @@ public class TTTGraphics2P extends JFrame {
             int rowSelected = mouseY / CELL_SIZE;
             int colSelected = mouseX / CELL_SIZE;
  
-            if (currentState == GameState.PLAYING) {
-               if (rowSelected >= 0 && rowSelected < ROWS && colSelected >= 0
-                     && colSelected < COLS && board[rowSelected][colSelected] == EMPTY_SEED) {
+            if (currentState == PLAYING_STATE) {
+               if (rowSelected >= 0 && rowSelected < ROWS && colSelected >= 0 &&
+                   colSelected < COLS && board[rowSelected][colSelected].equals(EMPTY_SEED)) {
                   board[rowSelected][colSelected] = currentPlayer; // Make a move
                   updateGame(currentPlayer, rowSelected, colSelected); // update state
                   // Switch player
@@ -160,7 +184,7 @@ public class TTTGraphics2P extends JFrame {
             board[row][col] = EMPTY_SEED; // all cells empty
          }
       }
-      currentState = GameState.PLAYING; // ready to play
+      currentState = PLAYING_STATE; // ready to play
       currentPlayer = CROSS_SEED;       // cross plays first
    }
  
@@ -168,11 +192,11 @@ public class TTTGraphics2P extends JFrame {
        (rowSelected, colSelected). */
    public void updateGame(Seed theSeed, int rowSelected, int colSelected) {
       if (isWon(theSeed, rowSelected, colSelected)) {  // check for win
-         currentState = (theSeed.equals(CROSS_SEED)) ? GameState.CROSS_WON : GameState.NOUGHT_WON;
+         currentState = WON_STATE;
       } else if (isDraw()) {  // check for draw
-         currentState = GameState.DRAW;
+         currentState = DRAW_STATE;
       }
-      // Otherwise, no change to current state (still GameState.PLAYING).
+      // Otherwise, no change to current state (still PLAYING_STATE).
    }
  
    /** Return true if it is a draw (i.e., no more empty cell) */
@@ -282,24 +306,8 @@ public class TTTGraphics2P extends JFrame {
 
       /** Update status bar based on game state **/
       private void updateStatusBar() {
-        // Print status-bar message
-         if (currentState == GameState.PLAYING) {
-            statusBar.setForeground(Color.BLACK);
-            if (currentPlayer == CROSS_SEED) {
-               statusBar.setText("X's Turn");
-            } else {
-               statusBar.setText("O's Turn");
-            }
-         } else if (currentState == GameState.DRAW) {
-            statusBar.setForeground(Color.RED);
-            statusBar.setText("It's a Draw! Click to play again.");
-         } else if (currentState == GameState.CROSS_WON) {
-            statusBar.setForeground(Color.RED);
-            statusBar.setText("'X' Won! Click to play again.");
-         } else if (currentState == GameState.NOUGHT_WON) {
-            statusBar.setForeground(Color.RED);
-            statusBar.setText("'O' Won! Click to play again.");
-         }
+          // Print status-bar message
+          currentState.updateStatus(statusBar, currentPlayer);
       }
    }
  
