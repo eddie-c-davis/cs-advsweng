@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
 /**
  * Tic-Tac-Toe: Two-player Graphics version with Simple-OO
  * https://www.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe.html
@@ -17,57 +18,92 @@ public class TTTGraphics2P extends JFrame {
    public static final int CANVAS_HEIGHT = CELL_SIZE * ROWS;
    public static final int GRID_WIDTH = 8;                   // Grid-line's width
    public static final int GRID_WIDHT_HALF = GRID_WIDTH / 2; // Grid-line's half-width
+   
    // Symbols (cross/nought) are displayed inside a cell, with padding from border
    public static final int CELL_PADDING = CELL_SIZE / 6;
    public static final int SYMBOL_SIZE = CELL_SIZE - CELL_PADDING * 2; // width/height
    public static final int SYMBOL_STROKE_WIDTH = 8; // pen's stroke width
- 
+
+   public final Seed EMPTY_SEED = new Empty();
+   public final Seed CROSS_SEED = new Cross();
+   public final Seed NOUGHT_SEED = new Nought();
+
    // Use an enumeration (inner class) to represent the various states of the game
    public enum GameState {
       PLAYING, DRAW, CROSS_WON, NOUGHT_WON
    }
+   
    private GameState currentState;  // the current game state
  
-   // Use an enumeration (inner class) to represent the seeds and cell contents
-   public enum Seed {
-      EMPTY, CROSS, NOUGHT
+   // Use an abstract class (inner class) to represent the seeds and cell contents
+   abstract class Seed {
+      protected char _symbol;
+      protected Color _color;
+      protected int _x;
+      protected int _y;
+
+      public boolean equals(Seed other) {
+          return (_symbol == other.symbol());
+      }
+
+      public char symbol() {
+          return _symbol;
+      }
+
+       public void draw(Graphics2D g2d, int row, int col) {
+           g2d.setColor(_color);
+           _x = col * CELL_SIZE + CELL_PADDING;
+           _y = row * CELL_SIZE + CELL_PADDING;
+       }
    }
+
+   class Empty extends Seed {
+        public Empty() {
+            _symbol = '\0';
+            _color = Color.WHITE;
+        }
+
+        public void draw(Graphics2D g2d, int row, int col) {
+            super.draw(g2d, row, col);
+        }
+    }
+
+    class Cross extends Seed {
+        public Cross() {
+            _symbol = 'X';
+            _color = Color.RED;
+        }
+
+        public void draw(Graphics2D g2d, int row, int col) {
+            super.draw(g2d, row, col);
+            int x2 = (col + 1) * CELL_SIZE - CELL_PADDING;
+            int y2 = (row + 1) * CELL_SIZE - CELL_PADDING;
+            g2d.drawLine(_x, _y, x2, y2);
+            g2d.drawLine(x2, _y, _x, y2);
+        }
+    }
+
+    class Nought extends Seed {
+        public Nought() {
+            _symbol = 'O';
+        }
+
+        public void draw(Graphics2D g2d, int row, int col){
+            super.draw(g2d,row,col);
+            g2d.drawOval(_x, _y, SYMBOL_SIZE, SYMBOL_SIZE);
+        }
+    }
+
    private Seed currentPlayer;  // the current player
- 
    private Seed[][] board   ; // Game board of ROWS-by-COLS cells
-   private DrawCanvas canvas; // Drawing canvas (JPanel) for the game board
+   private DrawingCanvas canvas; // Drawing canvas (JPanel) for the game board
    private JLabel statusBar;  // Status Bar
  
    /** Constructor to setup the game and the GUI components */
    public TTTGraphics2P() {
-      canvas = new DrawCanvas();  // Construct a drawing canvas (a JPanel)
+      canvas = new DrawingCanvas();  // Construct a drawing canvas (a JPanel)
       canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
- 
-      // The canvas (JPanel) fires a MouseEvent upon mouse-click
-      canvas.addMouseListener(new MouseAdapter() {
-         @Override
-         public void mouseClicked(MouseEvent e) {  // mouse-clicked handler
-            int mouseX = e.getX();
-            int mouseY = e.getY();
-            // Get the row and column clicked
-            int rowSelected = mouseY / CELL_SIZE;
-            int colSelected = mouseX / CELL_SIZE;
- 
-            if (currentState == GameState.PLAYING) {
-               if (rowSelected >= 0 && rowSelected < ROWS && colSelected >= 0
-                     && colSelected < COLS && board[rowSelected][colSelected] == Seed.EMPTY) {
-                  board[rowSelected][colSelected] = currentPlayer; // Make a move
-                  updateGame(currentPlayer, rowSelected, colSelected); // update state
-                  // Switch player
-                  currentPlayer = (currentPlayer == Seed.CROSS) ? Seed.NOUGHT : Seed.CROSS;
-               }
-            } else {       // game over
-               initGame(); // restart the game
-            }
-            // Refresh the drawing canvas
-            repaint();  // Call-back paintComponent().
-         }
-      });
+      addMouseListener();
  
       // Setup the status bar (JLabel) to display status message
       statusBar = new JLabel("  ");
@@ -88,22 +124,51 @@ public class TTTGraphics2P extends JFrame {
       initGame(); // initialize the game board contents and game variables
    }
  
+   /** Add mouse listener to drawing canvas **/
+   private void addMouseListener() {
+     // The canvas (JPanel) fires a MouseEvent upon mouse-click
+      canvas.addMouseListener(new MouseAdapter() {
+         @Override
+         public void mouseClicked(MouseEvent e) {  // mouse-clicked handler
+            int mouseX = e.getX();
+            int mouseY = e.getY();
+            // Get the row and column clicked
+            int rowSelected = mouseY / CELL_SIZE;
+            int colSelected = mouseX / CELL_SIZE;
+ 
+            if (currentState == GameState.PLAYING) {
+               if (rowSelected >= 0 && rowSelected < ROWS && colSelected >= 0
+                     && colSelected < COLS && board[rowSelected][colSelected] == EMPTY_SEED) {
+                  board[rowSelected][colSelected] = currentPlayer; // Make a move
+                  updateGame(currentPlayer, rowSelected, colSelected); // update state
+                  // Switch player
+                  currentPlayer = (currentPlayer.equals(CROSS_SEED) ? NOUGHT_SEED : CROSS_SEED);
+               }
+            } else {       // game over
+               initGame(); // restart the game
+            }
+            // Refresh the drawing canvas
+            repaint();  // Call-back paintComponent().
+         }
+      });
+   }
+ 
    /** Initialize the game-board contents and the status */
    public void initGame() {
       for (int row = 0; row < ROWS; ++row) {
          for (int col = 0; col < COLS; ++col) {
-            board[row][col] = Seed.EMPTY; // all cells empty
+            board[row][col] = EMPTY_SEED; // all cells empty
          }
       }
       currentState = GameState.PLAYING; // ready to play
-      currentPlayer = Seed.CROSS;       // cross plays first
+      currentPlayer = CROSS_SEED;       // cross plays first
    }
  
    /** Update the currentState after the player with "theSeed" has placed on
        (rowSelected, colSelected). */
    public void updateGame(Seed theSeed, int rowSelected, int colSelected) {
-      if (hasWon(theSeed, rowSelected, colSelected)) {  // check for win
-         currentState = (theSeed == Seed.CROSS) ? GameState.CROSS_WON : GameState.NOUGHT_WON;
+      if (isWon(theSeed, rowSelected, colSelected)) {  // check for win
+         currentState = (theSeed.equals(CROSS_SEED)) ? GameState.CROSS_WON : GameState.NOUGHT_WON;
       } else if (isDraw()) {  // check for draw
          currentState = GameState.DRAW;
       }
@@ -114,7 +179,7 @@ public class TTTGraphics2P extends JFrame {
    public boolean isDraw() {
       for (int row = 0; row < ROWS; ++row) {
          for (int col = 0; col < COLS; ++col) {
-            if (board[row][col] == Seed.EMPTY) {
+            if (board[row][col] == EMPTY_SEED) {
                return false; // an empty cell found, not draw, exit
             }
          }
@@ -124,33 +189,72 @@ public class TTTGraphics2P extends JFrame {
  
    /** Return true if the player with "theSeed" has won after placing at
        (rowSelected, colSelected) */
-   public boolean hasWon(Seed theSeed, int rowSelected, int colSelected) {
-      return (board[rowSelected][0] == theSeed  // 3-in-the-row
-            && board[rowSelected][1] == theSeed
-            && board[rowSelected][2] == theSeed
-       || board[0][colSelected] == theSeed      // 3-in-the-column
-            && board[1][colSelected] == theSeed
-            && board[2][colSelected] == theSeed
-       || rowSelected == colSelected            // 3-in-the-diagonal
-            && board[0][0] == theSeed
-            && board[1][1] == theSeed
-            && board[2][2] == theSeed
-       || rowSelected + colSelected == 2  // 3-in-the-opposite-diagonal
-            && board[0][2] == theSeed
-            && board[1][1] == theSeed
-            && board[2][0] == theSeed);
+   public boolean isWon(Seed theSeed, int rowSelected, int colSelected) {
+     return isRowWon(theSeed, rowSelected) ||                      // 3-in-the-row
+            isColWon(theSeed, colSelected) ||                     // 3-in-the-column
+            isFwdDiagWon(theSeed, rowSelected, colSelected) ||    // 3-in-the-diagonal
+            isRevDiagWon(theSeed, rowSelected, colSelected);      // 3-in-the-opposite-diagonal
    }
  
+   /** Return true if seed player has won by placing an entire row **/
+   boolean isRowWon(Seed seed, int row) {
+     boolean result = (board[row][0] == seed);
+     for (int col = 1; col < COLS; col++) {
+       result &= (board[row][col].equals(seed));
+     }
+     return result;
+   }
+
+    /** Return true if seed player has won by placing an entire column **/
+    boolean isColWon(Seed seed, int col) {
+        boolean result = (board[0][col] == seed);
+        for (int row = 1; row < ROWS; row++) {
+            result &= (board[row][col].equals(seed));
+        }
+        return result;
+    }
+
+    /** Return true if seed player has won by placing a forward diagonal **/
+    boolean isFwdDiagWon(Seed seed, int row, int col) {
+        boolean result = (row == col);
+        if (result) {
+            for (int diag = 0; diag < ROWS; diag++) {
+                result &= (board[diag][diag].equals(seed));
+            }
+        }
+        return result;
+    }
+
+    /** Return true if seed player has won by placing a reverse diagonal **/
+    boolean isRevDiagWon(Seed seed, int row, int col) {
+        boolean result = (row + col == ROWS - 1);
+        if (result) {
+            for (int diag = 0; diag < ROWS; diag++) {
+                int r = diag;
+                int c = COLS - diag - 1;
+                result &= (board[r][c].equals(seed));
+            }
+        }
+        return result;
+    }
+
    /**
-    *  Inner class DrawCanvas (extends JPanel) used for custom graphics drawing.
+    *  Inner class DrawingCanvas (extends JPanel) used for custom graphics drawing.
     */
-   class DrawCanvas extends JPanel {
+   class DrawingCanvas extends JPanel {
       @Override
       public void paintComponent(Graphics g) {  // invoke via repaint()
          super.paintComponent(g);    // fill background
          setBackground(Color.WHITE); // set its background color
  
-         // Draw the grid-lines
+         drawGridLines(g);
+         drawSeeds(g);
+         updateStatusBar();
+      }
+
+      /** Draw grid lines on Tic-Tac-Toe board */
+      private void drawGridLines(Graphics g) {
+        // Draw the grid-lines
          g.setColor(Color.LIGHT_GRAY);
          for (int row = 1; row < ROWS; ++row) {
             g.fillRoundRect(0, CELL_SIZE * row - GRID_WIDHT_HALF,
@@ -160,33 +264,28 @@ public class TTTGraphics2P extends JFrame {
             g.fillRoundRect(CELL_SIZE * col - GRID_WIDHT_HALF, 0,
                   GRID_WIDTH, CANVAS_HEIGHT-1, GRID_WIDTH, GRID_WIDTH);
          }
- 
-         // Draw the Seeds of all the cells if they are not empty
+      }
+
+      /** Draw seed shapes **/
+      private void drawSeeds(Graphics g) {
+        // Draw the Seeds of all the cells if they are not empty
          // Use Graphics2D which allows us to set the pen's stroke
          Graphics2D g2d = (Graphics2D)g;
          g2d.setStroke(new BasicStroke(SYMBOL_STROKE_WIDTH, BasicStroke.CAP_ROUND,
                BasicStroke.JOIN_ROUND));  // Graphics2D only
          for (int row = 0; row < ROWS; ++row) {
             for (int col = 0; col < COLS; ++col) {
-               int x1 = col * CELL_SIZE + CELL_PADDING;
-               int y1 = row * CELL_SIZE + CELL_PADDING;
-               if (board[row][col] == Seed.CROSS) {
-                  g2d.setColor(Color.RED);
-                  int x2 = (col + 1) * CELL_SIZE - CELL_PADDING;
-                  int y2 = (row + 1) * CELL_SIZE - CELL_PADDING;
-                  g2d.drawLine(x1, y1, x2, y2);
-                  g2d.drawLine(x2, y1, x1, y2);
-               } else if (board[row][col] == Seed.NOUGHT) {
-                  g2d.setColor(Color.BLUE);
-                  g2d.drawOval(x1, y1, SYMBOL_SIZE, SYMBOL_SIZE);
-               }
+                board[row][col].draw(g2d, row, col);
             }
          }
- 
-         // Print status-bar message
+      }
+
+      /** Update status bar based on game state **/
+      private void updateStatusBar() {
+        // Print status-bar message
          if (currentState == GameState.PLAYING) {
             statusBar.setForeground(Color.BLACK);
-            if (currentPlayer == Seed.CROSS) {
+            if (currentPlayer == CROSS_SEED) {
                statusBar.setText("X's Turn");
             } else {
                statusBar.setText("O's Turn");

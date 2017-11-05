@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-
 /**
  * Tic-Tac-Toe: Two-player Graphics version with Simple-OO
  * https://www.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe.html
@@ -18,7 +17,6 @@ public class TTTGraphics2P extends JFrame {
    public static final int CANVAS_HEIGHT = CELL_SIZE * ROWS;
    public static final int GRID_WIDTH = 8;                   // Grid-line's width
    public static final int GRID_WIDHT_HALF = GRID_WIDTH / 2; // Grid-line's half-width
-   
    // Symbols (cross/nought) are displayed inside a cell, with padding from border
    public static final int CELL_PADDING = CELL_SIZE / 6;
    public static final int SYMBOL_SIZE = CELL_SIZE - CELL_PADDING * 2; // width/height
@@ -28,47 +26,24 @@ public class TTTGraphics2P extends JFrame {
    public enum GameState {
       PLAYING, DRAW, CROSS_WON, NOUGHT_WON
    }
-   
    private GameState currentState;  // the current game state
  
    // Use an enumeration (inner class) to represent the seeds and cell contents
    public enum Seed {
       EMPTY, CROSS, NOUGHT
    }
-   
    private Seed currentPlayer;  // the current player
+ 
    private Seed[][] board   ; // Game board of ROWS-by-COLS cells
-   private DrawingCanvas canvas; // Drawing canvas (JPanel) for the game board
+   private DrawCanvas canvas; // Drawing canvas (JPanel) for the game board
    private JLabel statusBar;  // Status Bar
  
    /** Constructor to setup the game and the GUI components */
    public TTTGraphics2P() {
-      canvas = new DrawingCanvas();  // Construct a drawing canvas (a JPanel)
+      canvas = new DrawCanvas();  // Construct a drawing canvas (a JPanel)
       canvas.setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT));
-      addMouseListener();
  
-      // Setup the status bar (JLabel) to display status message
-      statusBar = new JLabel("  ");
-      statusBar.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 15));
-      statusBar.setBorder(BorderFactory.createEmptyBorder(2, 5, 4, 5));
- 
-      Container cp = getContentPane();
-      cp.setLayout(new BorderLayout());
-      cp.add(canvas, BorderLayout.CENTER);
-      cp.add(statusBar, BorderLayout.PAGE_END); // same as SOUTH
- 
-      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      pack();  // pack all the components in this JFrame
-      setTitle("Tic Tac Toe");
-      setVisible(true);  // show this JFrame
- 
-      board = new Seed[ROWS][COLS]; // allocate array
-      initGame(); // initialize the game board contents and game variables
-   }
- 
-   /** Add mouse listener to drawing canvas **/
-   private void addMouseListener() {
-     // The canvas (JPanel) fires a MouseEvent upon mouse-click
+      // The canvas (JPanel) fires a MouseEvent upon mouse-click
       canvas.addMouseListener(new MouseAdapter() {
          @Override
          public void mouseClicked(MouseEvent e) {  // mouse-clicked handler
@@ -93,6 +68,24 @@ public class TTTGraphics2P extends JFrame {
             repaint();  // Call-back paintComponent().
          }
       });
+ 
+      // Setup the status bar (JLabel) to display status message
+      statusBar = new JLabel("  ");
+      statusBar.setFont(new Font(Font.DIALOG_INPUT, Font.BOLD, 15));
+      statusBar.setBorder(BorderFactory.createEmptyBorder(2, 5, 4, 5));
+ 
+      Container cp = getContentPane();
+      cp.setLayout(new BorderLayout());
+      cp.add(canvas, BorderLayout.CENTER);
+      cp.add(statusBar, BorderLayout.PAGE_END); // same as SOUTH
+ 
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      pack();  // pack all the components in this JFrame
+      setTitle("Tic Tac Toe");
+      setVisible(true);  // show this JFrame
+ 
+      board = new Seed[ROWS][COLS]; // allocate array
+      initGame(); // initialize the game board contents and game variables
    }
  
    /** Initialize the game-board contents and the status */
@@ -109,7 +102,7 @@ public class TTTGraphics2P extends JFrame {
    /** Update the currentState after the player with "theSeed" has placed on
        (rowSelected, colSelected). */
    public void updateGame(Seed theSeed, int rowSelected, int colSelected) {
-      if (isWon(theSeed, rowSelected, colSelected)) {  // check for win
+      if (hasWon(theSeed, rowSelected, colSelected)) {  // check for win
          currentState = (theSeed == Seed.CROSS) ? GameState.CROSS_WON : GameState.NOUGHT_WON;
       } else if (isDraw()) {  // check for draw
          currentState = GameState.DRAW;
@@ -131,12 +124,7 @@ public class TTTGraphics2P extends JFrame {
  
    /** Return true if the player with "theSeed" has won after placing at
        (rowSelected, colSelected) */
-   public boolean isWon(Seed theSeed, int rowSelected, int colSelected) {
-     boolean result = isRowWon(theSeed, rowSelected);
-     if (!result) {
-       result |= isColWon(theSeed, colSelected);
-     }
-     
+   public boolean hasWon(Seed theSeed, int rowSelected, int colSelected) {
       return (board[rowSelected][0] == theSeed  // 3-in-the-row
             && board[rowSelected][1] == theSeed
             && board[rowSelected][2] == theSeed
@@ -153,30 +141,16 @@ public class TTTGraphics2P extends JFrame {
             && board[2][0] == theSeed);
    }
  
-   /** Return true if seed player has won by placing an entire row **/
-   boolean isRowWon(Seed seed, int row) {
-     boolean result = (board[row][0] == seed);
-     for (int col = 1; col < COLS; col++) {
-       result &= (board[row][col] == seed);
-     }
-   }
- 
    /**
-    *  Inner class DrawingCanvas (extends JPanel) used for custom graphics drawing.
+    *  Inner class DrawCanvas (extends JPanel) used for custom graphics drawing.
     */
-   class DrawingCanvas extends JPanel {
+   class DrawCanvas extends JPanel {
       @Override
       public void paintComponent(Graphics g) {  // invoke via repaint()
          super.paintComponent(g);    // fill background
          setBackground(Color.WHITE); // set its background color
  
-         drawGridLines(g);
-         drawSeeds(g);
-         updateStatusBar();
-      }
-      
-      private void drawGridLines(Graphics g) {
-        // Draw the grid-lines
+         // Draw the grid-lines
          g.setColor(Color.LIGHT_GRAY);
          for (int row = 1; row < ROWS; ++row) {
             g.fillRoundRect(0, CELL_SIZE * row - GRID_WIDHT_HALF,
@@ -186,10 +160,8 @@ public class TTTGraphics2P extends JFrame {
             g.fillRoundRect(CELL_SIZE * col - GRID_WIDHT_HALF, 0,
                   GRID_WIDTH, CANVAS_HEIGHT-1, GRID_WIDTH, GRID_WIDTH);
          }
-      }
-      
-      private void drawSeeds(Graphics g) {
-        // Draw the Seeds of all the cells if they are not empty
+ 
+         // Draw the Seeds of all the cells if they are not empty
          // Use Graphics2D which allows us to set the pen's stroke
          Graphics2D g2d = (Graphics2D)g;
          g2d.setStroke(new BasicStroke(SYMBOL_STROKE_WIDTH, BasicStroke.CAP_ROUND,
@@ -210,10 +182,8 @@ public class TTTGraphics2P extends JFrame {
                }
             }
          }
-      }
-      
-      private void updateStatusBar() {
-        // Print status-bar message
+ 
+         // Print status-bar message
          if (currentState == GameState.PLAYING) {
             statusBar.setForeground(Color.BLACK);
             if (currentPlayer == Seed.CROSS) {
