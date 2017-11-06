@@ -1,0 +1,59 @@
+%% SUMMARY OF DEVELOPMENT PROCESS
+
+\section{Summary of Development Process}
+
+The development model selected was Agile Scrum. The team conducted weekly
+scrum meetings on Friday afternoons, to plan the activities for the next sprint.
+The development team collaborated daily via the Slack online web tool. Developers
+also collaborated via email and repository commit messages.
+
+The version control system (VCS) used was a Bitbucket repository with git command tool.
+The object-oriented programming language selected is Java, and the build system is Maven.
+Unit tests were written in JUnit 4, and code coverage was calculated with the Eclipse IDE.
+The UML class diagrams were generated with the IntelliJ IDE.
+
+The coding standard adopted for this project includes many conventions that are common
+in Java applications. Variable names should be descriptive, i.e., the code should be self-commenting.
+Class and variable names follow the camel case convention, with alternating upper-
+and lowercase characters, to signify new words. Class and interface names all
+begin with an uppercase character. Class names are always nouns, and interfaces
+adjectives (e.g., \texttt{Firable}, \texttt{PetriSerializable}).
+
+Method names should be verbs, query (accessor) method names beginning with \textit{get}, properties
+with \textit{set}, and the rest assumed to be commands (mutators). Instance variables should be private
+if the class is closed for inheritance, or protected if the class can be extended (Open-Closed Principle).
+Instance variable names should begin with an underscore ``\_'', to distinguish them from local
+method variables, an example of writing for later readability.
+
+Opening braces should be placed on the same line as the method, loop, or conditional definition, to
+reduce the total lines of code. Blank lines should be used sparingly, to separate methods, and
+logical blocks of code within methods, much like paragraphs in written prose.
+
+The classes and methods are documented with Javadoc comments. Some preconditions,
+postconditions, class invariants are documented with Java Modeling Language (JML),
+embedded within the Javadoc comments. Class headers and method headers should be well commented,
+but within method comments should be sparse, relying instead on descriptive class, variable, and
+method names to self-document the code.
+
+As indicated above, the intent of the development process has been to follow the Agile Scrum paradigm.
+However, the actual implementation path bears some similarity to the waterfall model. The first
+stage of the process was requirements gathering, following by the initial design, and first pass at
+implementation. It has been an iterative process as well, because it has been necessary to revisit
+the requirements, design, or implementation along the way. The development of unit tests along the
+way could be considered part of the verification phase, and this has also followed a rather
+iterative process as well.
+
+Overall, the goal has been to produce quality, working code as quickly as possible, by following
+agile development processes and SOLID design principles. The work has been organized into sprints,
+emphasizing collaboration, with frequent feedback from the development team (also the customers
+in this scenario). Though the development has been quite successful, as the user story status in
+Table~\ref{tab:user_stories} indicates, opportunities for improvement remain. Collaboration via
+Slack and Bitbucket have been instrumental, but there are other tools (Scrum task boards for example),
+that had been intended for use but proved not to be time effective. Other Confluence tools, such as
+Kanban boards and their corresponding swimlanes might be helpful as well. In general, more
+frequent communication would be the most significant improvement.
+
+% TODO:
+% 1) Contrast our development model with the waterfall model...
+% 2) What can we do better going forward?
+

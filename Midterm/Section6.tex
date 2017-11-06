@@ -1,0 +1,24 @@
+%% LESSONS LEARNED
+
+\section{Lessons learned}
+
+At the beginning of this project, I had only recently become aware of Petri Nets, while researching
+related work for a paper on macro dataflow graphs modeling distributed memory applications. In the
+era of big data, heterogeneous computing platforms, and the apparent bottleneck of the
+memory subsystem in multi-core architectures, modeling systems based on the availability of data
+are becoming increasingly important. To that end, I have learned much more about the applications of
+Petri nets to complex problems such as \textit{Dining Philosophers} and \textit{Producers-Consumers}.
+
+In development terms, I have learned much more about dividing a large project into multiple components
+and the challenges of developing those components in a team environment. During much of my professional
+and academic life, much of my work has taken place in isolation, collaborating mostly at a high level,
+either having complete control to modify code in an application, or none at all. The need to collaborate
+at a low level in a tight knit development group has been enlightening.
+
+The way in which the concepts covered during lecture are able to be applied to the class project
+enable a hands-on learning approach that make the course more effective. One specific lesson learned
+is the need to be cautious when developing international code. It is important to pay attention
+to details like number formats, a comma is used to represent the radix in the EU, instead of a decimal
+point as in the US. A file written with the comma format for a floating point number will fail when
+read by a system expecting a decimal point instead. Such details highlight the need for comprehensive
+unit testing, particularly for human-computer interaction.
