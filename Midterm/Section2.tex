@@ -1,0 +1,59 @@
+%% PRODUCT BACKLOG
+
+\section{Product backlog}
+
+In this section, are listed the requirements for the completion of the first phase of the project. These requirements, are generated based on the client's specifications for the program and thus they cover all the features for this stage.
+
+As shown in Table \ref{tab:user_stories}, all the user stories of the program are focused on providing to the user all the necessary functionalities to edit a PetriNet. Each user story in Table \ref{tab:priorities} defines a task (identified by its \emph{ID}) and these tasks must to be complete in order to finish the first stage. Table \ref{tab:priorities} shows each tasks' priority and its time estimation in hours. There are some invisible tasks that are not part of the user stories but which are important for developing the product. The users stories define the functionalities of the program and thus they do not take into account core modules (e.g. the design of the PetriNet and its components). 
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ |l|c|l|l| } 
+ \hline
+ \bf{ID} & \bf{Entity} & \bf{Description} & \bf{Status} \\ 
+ \hline
+ T1 & User & As a user I want to CREATE a PetriNet & Complete\\ 
+ T2 & User & As a user I want to LOAD a PetriNet from an XML file & Complete\\ 
+ T3 & User & As a user I want to SAVE a PetriNet to a XML file & Complete\\ 
+ T4 & User & As a user I want to EDIT a PetriNet via GUI & Almost done\\ 
+ T5 & User & As a user I want to UNDO my actions & Almost done \\
+ T6 & User & As a user I want to REDO my actions & Almost done \\
+ T7 & User & As a user I want to COPY component of the PetriNet & Complete\\ 
+ T8 & User & As a user I want to PASTE PetriNet already copied & Complete\\ 
+ T9 & User & As a user I want to SIMULATE step by step the PetriNet transitions & Complete\\ 
+ T10 & User & As a user I want to see the VENDING MACHINE example & Complete\\ 
+ T11 & User & As a user I want to see the DINNING PHILOSOPHERS example & Complete\\ 
+ T12 & User & As a user I want to see COMMUNICATION PROTOCOL example & Complete\\ 
+ T13 & User & As a user I want to see READERS-WRITERS example & Complete\\ 
+ \hline
+\end{tabular}
+\caption{User story identification.}
+\label{tab:user_stories}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ |l|c|c| } 
+ \hline
+ \bf{ID} & \bf{Priority} & \bf{Estimate (h)} \\ 
+ \hline
+ T1 & 1 & 4\\ 
+ T2  & 2 & 6\\ 
+ T3  & 3 & 6\\ 
+ T4  & 4 & 10\\ 
+ T7  & 5 & 6\\ 
+ T8  & 6 & 6\\ 
+ T9  & 7 & 14\\
+ T5  & 8 & 4 \\
+ T6  & 9 & 4 \\
+ T10 & 10 & 6\\ 
+ T11  & 11 & 6\\ 
+ T12  & 12 & 6\\ 
+ T13  & 13 & 6\\ 
+ \hline
+\end{tabular}
+\caption{Priority of each task and its time estimation in hours.}
+\label{tab:priorities}
+\end{table}

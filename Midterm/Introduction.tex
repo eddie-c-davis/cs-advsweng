@@ -1,0 +1,50 @@
+%% INTRODUCTION
+
+\section{Introduction}
+
+The goal of this project is to apply object-oriented design and agile development principles to
+develop a graphical environment for the development and simulation of Petri Nets.
+A Petri Net (PN) is a mathematical modeling language represented as a directed, bipartite graph. The
+graphs can be used to model software processes, state machines, formal language semantics,
+parallel and distributed systems, and many other computer science applications. The PN
+abstraction provides a higher level than finite state automata, able to model nondeterministic
+or stochastic processes.
+
+A PN graph consists of two types of nodes, with \textit{places} represented by circles, and
+the \textit{transitions} between them by rectangles. Places and transitions are connected by
+directed arrows called \textit{arcs}. An arc connecting a place to a transition is called a
+\textit{source} arc, and one connecting a transition to a place is known as a \textit{destination}.
+Places can contain a number of \textit{tokens}, represented by an integer value, $t \geq 0$.
+An arcs can also have a \textit{weight}, an integer value, $w \geq 1$, that defaults to 1, and
+determines the number of tokens that move from one place to another between the transition. A
+transition may have any number of input arcs, and is \textit{firable} when all of the connected
+places contain the number of tokens specified by the arc weights. When the transition fires, tokens
+are moved from the destination place to the source place. A PN configuration, i.e., the number of
+tokens in each place is known as a \textit{marking}, and each PN has an initial one. An ordered
+set of transition firings is called a \textit{firing sequence}.
+
+The formal definition of a Petri Net, $PN$ with a set of places $P$ of size $m$, set of $T$
+transitions of size $n$, set of transition functions $F$ representing the arcs, and weight function
+$W$, assigning a weight to each arc, is given below. The initial marking is denoted as $M_0$, and all
+subsequent markings as $M_1, M_2, ...$. The firing sequence with $p$ firings is denoted by $\sigma$.
+
+\begin{align*}
+PN = (N, M_0) \\
+N = (P, T, F, W) \\
+P = \{ p_1, p_2, ..., p_m \} \\
+T = \{ t_1, t_2, ..., t_n \} \\
+F \subseteq (P \times T) \cup (T \times P), F \neq \emptyset \\
+W: F \rightarrow \{ 1, 2, 3, ... \} \\
+M_0: P \rightarrow \{ 1, 2, 3, ... \} \\
+\sigma = (M_0, t_1M_1, t_2M_2, ..., t_pM_p) \\
+\end{align*}
+
+%$\newline$
+
+The remainder of this report describes the design and development of the Petri Net simulator.
+Section 2 covers the team organization, Section 3 the product backlog, i.e., user stories,
+Section 4 details the object oriented design, Section 5 the pair development summary, Section 6
+the overall development process, and finally in Section 7, each author provides his lessons
+learned thus far.
+
+
