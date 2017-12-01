@@ -7,7 +7,6 @@ import vending.VendingMachine;
 import junit.framework.*;
 
 public class VendingTest extends TestCase {
-
 	private VendingMachine vending;
 	
 	public void setUp(){
@@ -24,8 +23,4 @@ public class VendingTest extends TestCase {
 		assertTrue("", vending.getJuice().getCount()==1);
 		assertTrue("", vending.getDeposit()==0);
 	}
-
-    public VendingMachine get_vending() {
-        return vending;
-    }
 }

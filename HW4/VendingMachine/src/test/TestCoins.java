@@ -15,6 +15,15 @@ public class TestCoins {
     private final int DOLLAR_AMOUNT = 100;
 
     @org.junit.Test
+    public void testReturn() {
+        VendingMachine machine = MachineBuilder.build();   // Build a VM...
+        machine.insertCoin(Coin.DIME);
+        assertTrue("Deposit > 0", machine.getDeposit() > 0);
+        machine.returnCoins();
+        assertTrue("Deposit == 0", machine.getDeposit() == 0);
+    }
+
+    @org.junit.Test
     public void testNickel() {
         VendingMachine machine = MachineBuilder.build();   // Build a VM...
         machine.insertCoin(Coin.NICKEL);
