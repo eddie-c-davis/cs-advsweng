@@ -10,11 +10,12 @@
 %\usepackage{epstopdf}
 %\usepackage{tikz}
 \usepackage{amssymb}
+\usepackage{booktabs}
 %\usepackage{listings}
 
 \begin{document}
 
-\subsection*{Eddie Davis}
+\textbf{Eddie Davis}
 \textbf{CS 573}\\
 \textbf{12/4/2017}\\
 
@@ -22,6 +23,26 @@
 
 \begin{enumerate}
 	\item \textbf{Mutation Testing and Fault Detection Conditions (30 points)}
+
+    \begin{table*}
+    	\centering
+    	\caption{Listing of living mutants. \label{tbl:mutants}}
+    	\begin{tabular}{|l|l|l|}
+    		\hline
+    		\textbf{Live mutant \#} & \textbf{Description of live mutant} & \textbf{Why it was not killed} \\
+    		AOIS\_20	& calculateChange(int price) \{  change = deposit – price--; …	& price-- is a post decrement applied to an argument so does not affect the output. \\
+    		AOIS\_16	& calculateChange(int price) \{ change = deposit-- - price;…	& As above, post-decrement applied so output is not affected. \\
+    		AOIS\_19	& calculateChange(int price) \{ change = deposit – price++;… &	This time, a post-increment is applied to price, but output remains unaffected. \\
+    		AOIS\_15 & calculateChange(int price) \{  change = deposit++ - price; &	Another case of post-increment applied that does not affect the output of the calculation. \\
+    		AOIS\_4	& setDrink(…) \{ … coffee.setCount( newCount-- ); ... \} & Yet another post-decrement of a local variable that does not affect the class state. \\
+    		AOIS\_1 & setDrink(…) \{ … coffee.setPrice( newPrice++ ); … \} & Another case of post-incrementing a local variable without affecting the class state. \\
+    		AOIS\_3	setDrink(…) \{ … coffee.setCount( newCount++ ); …\} & Another case of post-incrementing a local variable without affecting the class state. \\
+    		AOIS\_6 & setDrink(…) \{ …  juice.setPrice( newPrice-- ); … \} & Another case of post-decrementing a local variable without affecting the class state. \\
+    		AOIS\_11 & setDrink(…) \{ … soda.setCount( newCount++ ); … \} & Another case of post-incrementing a local variable without affecting the class state. \\
+    		AOIS\_12  & setDrink(…) \{ … soda.setCount( newCount-- ); … \} & Another case of post-decrementing a local variable without affecting the class state. \\
+    		\hline
+    	\end{tabular}
+    \end{table*}
 
 	\item \textbf{Automated GUI Testing (30 points)}
 	

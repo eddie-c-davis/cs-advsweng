@@ -45,6 +45,8 @@ public class TestDrinks {
         purchased = machine.purchase(drink.getName());
         assertTrue("Test purchased", purchased);
         assertTrue("Count is reduced", drink.getCount() < count);
-        assertTrue("Test proper change", machine.getChange() == expectedChange);
+        int actualChange = machine.getChange();
+        assertTrue("Test proper change", actualChange == expectedChange);
+        assertTrue("Change has not changed", actualChange == machine.getChange());
     }
 }
