@@ -62,10 +62,6 @@ def main():
                             else:
                                 print(output)
 
-
-
-    pass
-
 try:
     main()
 except KeyboardInterrupt as e: # Ctrl-C

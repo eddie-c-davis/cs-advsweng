@@ -52,6 +52,7 @@ public class VendingGUI extends JFrame implements ActionListener {
 	private JPanel createCoinPanel(){	
 		insertCoinButton = new JButton("Insert Coin");
 		insertCoinButton.addActionListener(this);
+		insertCoinButton.setName("InsertCoin");
 		JPanel panel = new JPanel();
 		panel.add(insertCoinButton);
 		panel.add(createCoinRadioGroup());
@@ -61,12 +62,16 @@ public class VendingGUI extends JFrame implements ActionListener {
 	private JPanel createCoinRadioGroup(){
 		nickelButton = new JRadioButton(Coin.NICKEL.name());
 		nickelButton.setSelected(false);
+		nickelButton.setName(Coin.NICKEL.name());
 		dimeButton = new JRadioButton(Coin.DIME.name());
 		dimeButton.setSelected(false);
+		dimeButton.setName(Coin.DIME.name());
 		quarterButton = new JRadioButton(Coin.QUARTER.name());
 		quarterButton.setSelected(true);
+		quarterButton.setName(Coin.QUARTER.name());
 		dollarButton = new JRadioButton(Coin.DOLLAR.name());
 		dollarButton.setSelected(false);
+		dollarButton.setName(Coin.DOLLAR.name());
 		
 		ButtonGroup coinRadioGroup = new ButtonGroup();
 		coinRadioGroup.add(nickelButton);
@@ -88,6 +93,7 @@ public class VendingGUI extends JFrame implements ActionListener {
 		depositTextField = new JTextField(6);
 		depositTextField.setEditable(false);
 		depositTextField.setText("0 cents");
+		depositTextField.setName("DepositField");
 		
 		JPanel depositPanel = new JPanel(); 
 		depositPanel.add(depositLabel);
@@ -99,6 +105,7 @@ public class VendingGUI extends JFrame implements ActionListener {
 	private JPanel createReturnCoinsPanel(){
 		returnCoinsButton = new JButton("Return Coins");
 		returnCoinsButton.addActionListener(this);
+		returnCoinsButton.setName("ReturnCoins");
 		JPanel panel = new JPanel();
 		panel.add(returnCoinsButton);
 		return panel;
@@ -107,6 +114,7 @@ public class VendingGUI extends JFrame implements ActionListener {
 	private JPanel createPurchasePanel(){	
 		purchaseButton = new JButton("Purchase");
 		purchaseButton.addActionListener(this);
+		purchaseButton.setName("Purchase");
 		JPanel panel = new JPanel();
 		panel.add(purchaseButton);
 		panel.add(createDrinkRadioGroup());
@@ -114,12 +122,20 @@ public class VendingGUI extends JFrame implements ActionListener {
 	}
 		
 	private JPanel createDrinkRadioGroup(){
-		coffeeButton = new JRadioButton(vendingmachine.getCoffee().toString());
+		String coffeeName = vendingmachine.getCoffee().toString();
+		coffeeButton = new JRadioButton(coffeeName);
 		coffeeButton.setSelected(true);
-		juiceButton = new JRadioButton(vendingmachine.getJuice().toString());
+		coffeeButton.setName(coffeeName);
+
+		String juiceName = vendingmachine.getJuice().toString();
+		juiceButton = new JRadioButton(juiceName);
 		juiceButton.setSelected(false);
-		sodaButton = new JRadioButton(vendingmachine.getSoda().toString());
+		juiceButton.setName(juiceName);
+
+		String sodaName = vendingmachine.getSoda().toString();
+		sodaButton = new JRadioButton(sodaName);
 		sodaButton.setSelected(false);
+		sodaButton.setName(sodaName);
 		
 		ButtonGroup drinkRadioGroup = new ButtonGroup();
 		drinkRadioGroup.add(coffeeButton);
@@ -138,6 +154,7 @@ public class VendingGUI extends JFrame implements ActionListener {
 		infoTextField = new JTextField(30);
 		infoTextField.setText("Welcome! ");
 		infoTextField.setEditable(false);
+		infoTextField.setName("InfoField");
 		JPanel infoPanel = new JPanel(); 
 		infoPanel.add(infoTextField);
 		return infoPanel;
@@ -220,5 +237,9 @@ public class VendingGUI extends JFrame implements ActionListener {
 				updateInformation("Coins are returned.");
 			}
 		}  
+	}
+
+	public VendingMachine getVendingMachine() {
+		return vendingmachine;
 	}
 }

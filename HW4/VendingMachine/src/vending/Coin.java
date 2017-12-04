@@ -1,7 +1,6 @@
 package vending;
 
 public class Coin {
-	
     public static final Coin NICKEL = new Coin("Nickel", 5);
     public static final Coin DIME = new Coin("Dime", 10);
     public static final Coin QUARTER = new Coin("Quarter", 25);
