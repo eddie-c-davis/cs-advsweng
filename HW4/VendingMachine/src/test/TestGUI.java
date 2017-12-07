@@ -3,7 +3,6 @@ package test;
 import gui.VendingGUI;
 import junit.extensions.jfcunit.JFCTestCase;
 import junit.extensions.jfcunit.JFCTestHelper;
-import junit.extensions.jfcunit.TestHelper;
 import junit.extensions.jfcunit.eventdata.MouseEventData;
 import junit.extensions.jfcunit.finder.NamedComponentFinder;
 import vending.Coin;
