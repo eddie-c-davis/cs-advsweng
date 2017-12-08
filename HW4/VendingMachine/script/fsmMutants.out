@@ -1,0 +1,2589 @@
+Compiling mutant: 'SDL_23' in method 'void_returnCoins()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_1(test.TestFSM): deposit == 0
+9/10 tests passed in 6 ms
+
+Compiling mutant: 'ASRS_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'ASRS_2' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 8 ms
+
+Compiling mutant: 'ASRS_4' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 7 ms
+
+Compiling mutant: 'ODL_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Reached deposit amount: 115
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+7/10 tests passed in 7 ms
+
+Compiling mutant: 'ASRS_1' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_20' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_2' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_2' lives!
+Compiling mutant: 'SDL_4' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): null
+test_6(test.TestFSM): null
+test_7(test.TestFSM): null
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_5' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): null
+test_8(test.TestFSM): null
+test_9(test.TestFSM): null
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_1' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_1' lives!
+Compiling mutant: 'SDL_3' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): null
+test_3(test.TestFSM): null
+test_4(test.TestFSM): null
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_10' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_24' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_24' lives!
+Compiling mutant: 'AOIS_23' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_23' lives!
+Compiling mutant: 'SDL_22' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 5 ms
+
+Compiling mutant: 'AOIU_9' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_20' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_20' lives!
+Compiling mutant: 'VDL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_3' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_17' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_2' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_4' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_13' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 7 ms
+
+Compiling mutant: 'VDL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_16' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_16' lives!
+Compiling mutant: 'SDL_19' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_19' lives!
+Compiling mutant: 'ODL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 7 ms
+
+Compiling mutant: 'AOIS_14' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_18' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_7' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_19' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_19' lives!
+Compiling mutant: 'AOIU_7' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_18' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_1' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_15' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_15' lives!
+Compiling mutant: 'LOI_8' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'ODL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_21' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_8' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_21' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_9' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit == 0
+test_1(test.TestFSM): deposit == 0
+test_2(test.TestFSM): deposit == 0
+test_3(test.TestFSM): deposit == 0
+test_4(test.TestFSM): deposit == 0
+test_5(test.TestFSM): deposit == 0
+test_6(test.TestFSM): deposit == 0
+test_7(test.TestFSM): deposit == 0
+test_8(test.TestFSM): deposit == 0
+test_9(test.TestFSM): deposit == 0
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_22' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+7/10 tests passed in 5 ms
+
+Compiling mutant: 'AOIU_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_4' lives!
+Compiling mutant: 'AOIS_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_1' lives!
+Compiling mutant: 'AOIU_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+7/10 tests passed in 7 ms
+
+Compiling mutant: 'SDL_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_14' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 5 ms
+
+Compiling mutant: 'AOIS_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_3' lives!
+Compiling mutant: 'SDL_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+4/10 tests passed in 5 ms
+
+Compiling mutant: 'AOIS_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_6' lives!
+Compiling mutant: 'SDL_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_11' lives!
+Compiling mutant: 'LOI_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+1/10 tests passed in 5 ms
+
+Compiling mutant: 'SDL_15' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_13' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 5 ms
+
+Compiling mutant: 'SDL_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_12' lives!
+Compiling mutant: 'AOIU_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_7' lives!
+Compiling mutant: 'AOIS_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_10' lives!
+Compiling mutant: 'SDL_17' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_17' lives!
+Compiling mutant: 'LOI_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_8' lives!
+Compiling mutant: 'AOIS_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_5' lives!
+Compiling mutant: 'AOIS_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_2' lives!
+Compiling mutant: 'AOIS_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_9' lives!
+Compiling mutant: 'SDL_16' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 5 ms
+
+Compiling mutant: 'SDL_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_33' timed out!
+Compiling mutant: 'AOIS_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'ROR_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_26' lives!
+Compiling mutant: 'ROR_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_13' lives!
+Compiling mutant: 'ODL_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_20' lives!
+Compiling mutant: 'AOIS_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'ROR_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_20' lives!
+Compiling mutant: 'ROR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_5' lives!
+Compiling mutant: 'SDL_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 5 ms
+
+Compiling mutant: 'SDL_44' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Soda purchased
+test_8(test.TestFSM): Soda purchased
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'SDL_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_27' timed out!
+Compiling mutant: 'ROR_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_24' timed out!
+Compiling mutant: 'COI_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_2' timed out!
+Compiling mutant: 'ROR_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_39' timed out!
+Compiling mutant: 'ODL_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_14' lives!
+Compiling mutant: 'LOI_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'LOI_13' timed out!
+Compiling mutant: 'SDL_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_39' timed out!
+Compiling mutant: 'AOIS_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_40' lives!
+Compiling mutant: 'ROR_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_33' lives!
+Compiling mutant: 'COI_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_7' timed out!
+Compiling mutant: 'AOIS_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'ROR_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_8' lives!
+Compiling mutant: 'SDL_43' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_43' lives!
+Compiling mutant: 'ODL_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_8' lives!
+Compiling mutant: 'COI_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_4' timed out!
+Compiling mutant: 'ROR_16' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_16' timed out!
+Compiling mutant: 'COI_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_6' timed out!
+Compiling mutant: 'ROR_18' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_18' timed out!
+Compiling mutant: 'COR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_2' timed out!
+Compiling mutant: 'AOIS_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'COI_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_9' timed out!
+Compiling mutant: 'ROR_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_30' timed out!
+Compiling mutant: 'ROR_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_31' timed out!
+Compiling mutant: 'SDL_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_41' timed out!
+Compiling mutant: 'COI_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_3' timed out!
+Compiling mutant: 'SDL_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_25' timed out!
+Compiling mutant: 'COR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_3' lives!
+Compiling mutant: 'SDL_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_34' timed out!
+Compiling mutant: 'ROR_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_28' timed out!
+Compiling mutant: 'ROR_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_35' timed out!
+Compiling mutant: 'COR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_6' timed out!
+Compiling mutant: 'ROR_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_15' lives!
+Compiling mutant: 'ROR_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_40' lives!
+Compiling mutant: 'ROR_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_42' timed out!
+Compiling mutant: 'ROR_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_25' timed out!
+Compiling mutant: 'SDL_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_37' lives!
+Compiling mutant: 'SDL_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_32' timed out!
+Compiling mutant: 'ROR_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_38' timed out!
+Compiling mutant: 'ODL_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_15' lives!
+Compiling mutant: 'ROR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_1' lives!
+Compiling mutant: 'AOIS_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'COR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_1' lives!
+Compiling mutant: 'ROR_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_7' timed out!
+Compiling mutant: 'SDL_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_26' timed out!
+Compiling mutant: 'ROR_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_41' lives!
+Compiling mutant: 'AOIS_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 5 ms
+
+Compiling mutant: 'SDL_45' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_45' lives!
+Compiling mutant: 'ROR_17' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_17' timed out!
+Compiling mutant: 'ROR_19' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_19' lives!
+Compiling mutant: 'COI_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_5' timed out!
+Compiling mutant: 'LOI_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'LOI_12' timed out!
+Compiling mutant: 'AOIS_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'COI_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_8' timed out!
+Compiling mutant: 'SDL_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_24' timed out!
+Compiling mutant: 'SDL_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Coffee purchased
+test_4(test.TestFSM): Coffee purchased
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'ROR_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_14' timed out!
+Compiling mutant: 'ROR_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_29' lives!
+Compiling mutant: 'ROR_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_37' timed out!
+Compiling mutant: 'AOIS_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'ROR_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_21' timed out!
+Compiling mutant: 'ROR_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_27' lives!
+Compiling mutant: 'ROR_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_34' lives!
+Compiling mutant: 'ODL_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_9' lives!
+Compiling mutant: 'ROR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_2' timed out!
+Compiling mutant: 'ROR_10' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_10' timed out!
+Compiling mutant: 'ROR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_6' lives!
+Compiling mutant: 'LOI_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'LOI_11' timed out!
+Compiling mutant: 'ROR_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_11' timed out!
+Compiling mutant: 'ROR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_4' timed out!
+Compiling mutant: 'ODL_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_21' lives!
+Compiling mutant: 'ROR_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_12' lives!
+Compiling mutant: 'ROR_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_9' timed out!
+Compiling mutant: 'AOIS_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'COR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_5' lives!
+Compiling mutant: 'ROR_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_32' timed out!
+Compiling mutant: 'SDL_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_30' lives!
+Compiling mutant: 'COI_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_1' timed out!
+Compiling mutant: 'ROR_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_36' lives!
+Compiling mutant: 'SDL_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'SDL_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_28' timed out!
+Compiling mutant: 'SDL_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Juice purchased
+test_7(test.TestFSM): Juice purchased
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'ROR_22' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_22' lives!
+Compiling mutant: 'ROR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_3' timed out!
+Compiling mutant: 'COR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_4' timed out!
+Compiling mutant: 'ROR_23' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_23' timed out!
+Compiling mutant: 'SDL_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_35' timed out!
+Compiling mutant: 'SDL_23' in method 'void_returnCoins()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_1(test.TestFSM): deposit == 0
+9/10 tests passed in 6 ms
+
+Compiling mutant: 'ASRS_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 8 ms
+
+Compiling mutant: 'ASRS_2' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'ASRS_4' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 8 ms
+
+Compiling mutant: 'ODL_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Reached deposit amount: 115
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'ASRS_1' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 8 ms
+
+Compiling mutant: 'SDL_20' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_2' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_2' lives!
+Compiling mutant: 'SDL_4' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): null
+test_6(test.TestFSM): null
+test_7(test.TestFSM): null
+7/10 tests passed in 8 ms
+
+Compiling mutant: 'SDL_5' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): null
+test_8(test.TestFSM): null
+test_9(test.TestFSM): null
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_1' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_1' lives!
+Compiling mutant: 'SDL_3' in method 'VendingMachine()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): null
+test_3(test.TestFSM): null
+test_4(test.TestFSM): null
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_10' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_24' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_24' lives!
+Compiling mutant: 'AOIS_23' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_23' lives!
+Compiling mutant: 'SDL_22' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_9' in method 'int_getChange()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 5 ms
+
+Compiling mutant: 'AOIS_20' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_20' lives!
+Compiling mutant: 'VDL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_3' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_17' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_2' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 7 ms
+
+Compiling mutant: 'AORB_4' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_13' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'VDL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_16' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_16' lives!
+Compiling mutant: 'SDL_19' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_19' lives!
+Compiling mutant: 'ODL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_14' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_18' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_7' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_19' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_19' lives!
+Compiling mutant: 'AOIU_7' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_18' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AORB_1' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_15' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_15' lives!
+Compiling mutant: 'LOI_8' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'ODL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_21' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 5 ms
+
+Compiling mutant: 'AOIU_8' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 7 ms
+
+Compiling mutant: 'SDL_21' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit > 0
+test_1(test.TestFSM): deposit > 0
+test_2(test.TestFSM): Reached deposit amount: 85
+test_3(test.TestFSM): Reached deposit amount: 85
+test_4(test.TestFSM): deposit > 0
+test_5(test.TestFSM): Reached deposit amount: 60
+test_6(test.TestFSM): Reached deposit amount: 60
+test_7(test.TestFSM): deposit > 0
+test_8(test.TestFSM): Reached deposit amount: 115
+test_9(test.TestFSM): Reached deposit amount: 115
+0/10 tests passed in 7 ms
+
+Compiling mutant: 'LOI_9' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): deposit == 0
+test_1(test.TestFSM): deposit == 0
+test_2(test.TestFSM): deposit == 0
+test_3(test.TestFSM): deposit == 0
+test_4(test.TestFSM): deposit == 0
+test_5(test.TestFSM): deposit == 0
+test_6(test.TestFSM): deposit == 0
+test_7(test.TestFSM): deposit == 0
+test_8(test.TestFSM): deposit == 0
+test_9(test.TestFSM): deposit == 0
+0/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_22' in method 'int_getDeposit()'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_4' lives!
+Compiling mutant: 'AOIS_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_1' lives!
+Compiling mutant: 'AOIU_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_14' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_3' lives!
+Compiling mutant: 'SDL_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_6' lives!
+Compiling mutant: 'SDL_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_11' lives!
+Compiling mutant: 'LOI_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+1/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_15' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_13' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_5(test.TestFSM): coffeeCount > 0
+test_6(test.TestFSM): juiceCount > 0
+test_7(test.TestFSM): juiceCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+4/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIU_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'LOI_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_12' lives!
+Compiling mutant: 'AOIU_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_7' lives!
+Compiling mutant: 'AOIS_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_10' lives!
+Compiling mutant: 'SDL_17' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_17' lives!
+Compiling mutant: 'LOI_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): coffeeCount > 0
+test_3(test.TestFSM): coffeeCount > 0
+test_4(test.TestFSM): coffeeCount > 0
+7/10 tests passed in 7 ms
+
+Compiling mutant: 'AOIS_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_8' lives!
+Compiling mutant: 'AOIS_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_5' lives!
+Compiling mutant: 'AOIS_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_2' lives!
+Compiling mutant: 'AOIS_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'AOIS_9' lives!
+Compiling mutant: 'SDL_16' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): sodaCount > 0
+test_8(test.TestFSM): coffeeCount > 0
+test_9(test.TestFSM): sodaCount > 0
+7/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_33' timed out!
+Compiling mutant: 'AOIS_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'ROR_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_26' lives!
+Compiling mutant: 'ROR_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_13' lives!
+Compiling mutant: 'ODL_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_20' lives!
+Compiling mutant: 'AOIS_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'ROR_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_20' lives!
+Compiling mutant: 'ROR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_5' lives!
+Compiling mutant: 'SDL_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'SDL_44' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Soda purchased
+test_8(test.TestFSM): Soda purchased
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_27' timed out!
+Compiling mutant: 'ROR_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_24' timed out!
+Compiling mutant: 'COI_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_2' timed out!
+Compiling mutant: 'ROR_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_39' timed out!
+Compiling mutant: 'ODL_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_14' lives!
+Compiling mutant: 'LOI_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'LOI_13' timed out!
+Compiling mutant: 'SDL_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_39' timed out!
+Compiling mutant: 'AOIS_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_40' lives!
+Compiling mutant: 'ROR_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_33' lives!
+Compiling mutant: 'COI_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_7' timed out!
+Compiling mutant: 'AOIS_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 8 ms
+
+Compiling mutant: 'ROR_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_8' lives!
+Compiling mutant: 'SDL_43' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_43' lives!
+Compiling mutant: 'ODL_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_8' lives!
+Compiling mutant: 'COI_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_4' timed out!
+Compiling mutant: 'ROR_16' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_16' timed out!
+Compiling mutant: 'COI_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_6' timed out!
+Compiling mutant: 'ROR_18' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_18' timed out!
+Compiling mutant: 'COR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_2' timed out!
+Compiling mutant: 'AOIS_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'COI_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_9' timed out!
+Compiling mutant: 'ROR_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_30' timed out!
+Compiling mutant: 'ROR_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_31' timed out!
+Compiling mutant: 'SDL_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_41' timed out!
+Compiling mutant: 'COI_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_3' timed out!
+Compiling mutant: 'SDL_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_25' timed out!
+Compiling mutant: 'COR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_3' lives!
+Compiling mutant: 'SDL_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_34' timed out!
+Compiling mutant: 'ROR_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_28' timed out!
+Compiling mutant: 'ROR_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_35' timed out!
+Compiling mutant: 'COR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_6' timed out!
+Compiling mutant: 'ROR_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_15' lives!
+Compiling mutant: 'ROR_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_40' lives!
+Compiling mutant: 'ROR_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_42' timed out!
+Compiling mutant: 'ROR_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_25' timed out!
+Compiling mutant: 'SDL_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_37' lives!
+Compiling mutant: 'SDL_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_32' timed out!
+Compiling mutant: 'ROR_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_38' timed out!
+Compiling mutant: 'ODL_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_15' lives!
+Compiling mutant: 'ROR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_1' lives!
+Compiling mutant: 'AOIS_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'COR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_1' lives!
+Compiling mutant: 'ROR_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_7' timed out!
+Compiling mutant: 'SDL_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_26' timed out!
+Compiling mutant: 'ROR_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_41' lives!
+Compiling mutant: 'AOIS_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'AOIS_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_45' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_45' lives!
+Compiling mutant: 'ROR_17' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_17' timed out!
+Compiling mutant: 'ROR_19' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_19' lives!
+Compiling mutant: 'COI_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_5' timed out!
+Compiling mutant: 'LOI_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'LOI_12' timed out!
+Compiling mutant: 'AOIS_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'COI_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_8' timed out!
+Compiling mutant: 'SDL_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_24' timed out!
+Compiling mutant: 'SDL_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Coffee purchased
+test_4(test.TestFSM): Coffee purchased
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'ROR_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_14' timed out!
+Compiling mutant: 'ROR_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_29' lives!
+Compiling mutant: 'ROR_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_37' timed out!
+Compiling mutant: 'AOIS_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'ROR_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_21' timed out!
+Compiling mutant: 'ROR_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_27' lives!
+Compiling mutant: 'ROR_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_34' lives!
+Compiling mutant: 'ODL_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_9' lives!
+Compiling mutant: 'ROR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_2' timed out!
+Compiling mutant: 'ROR_10' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_10' timed out!
+Compiling mutant: 'ROR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_6' lives!
+Compiling mutant: 'LOI_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'LOI_11' timed out!
+Compiling mutant: 'ROR_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_11' timed out!
+Compiling mutant: 'ROR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_4' timed out!
+Compiling mutant: 'ODL_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ODL_21' lives!
+Compiling mutant: 'ROR_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_12' lives!
+Compiling mutant: 'ROR_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_9' timed out!
+Compiling mutant: 'AOIS_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_10(test.TestFSM): Deposit reduced
+test_8(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'COR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_5' lives!
+Compiling mutant: 'ROR_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_32' timed out!
+Compiling mutant: 'SDL_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_30' lives!
+Compiling mutant: 'COI_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COI_1' timed out!
+Compiling mutant: 'ROR_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_36' lives!
+Compiling mutant: 'SDL_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Deposit reduced
+test_7(test.TestFSM): Deposit reduced
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_28' timed out!
+Compiling mutant: 'SDL_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_5(test.TestFSM): Juice purchased
+test_7(test.TestFSM): Juice purchased
+8/10 tests passed in 6 ms
+
+Compiling mutant: 'SDL_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+test_2(test.TestFSM): Deposit reduced
+test_4(test.TestFSM): Deposit reduced
+8/10 tests passed in 7 ms
+
+Compiling mutant: 'ROR_22' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_22' lives!
+Compiling mutant: 'ROR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_3' timed out!
+Compiling mutant: 'COR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'COR_4' timed out!
+Compiling mutant: 'ROR_23' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'ROR_23' timed out!
+Compiling mutant: 'SDL_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac ./src/vending/VendingMachine.java
+mv ./src/vending/VendingMachine.class ./bin/vending/VendingMachine.class
+java test.FSMRunner
+Mutant 'SDL_35' timed out!
+=======================================
+  Mutation Score: 0.698324
+=======================================

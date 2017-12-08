@@ -60,8 +60,11 @@ def main():
 
                             # Run the JUnit tests
                             print(testCmd)
-                            bytes = sub.check_output(testCmd.split(' '), env=os.environ, stderr=sub.STDOUT)
-                            output = bytes.decode()
+                            try:
+                                bytes = sub.check_output(testCmd.split(' '), env=os.environ, stderr=sub.STDOUT, timeout=0.5)
+                                output = bytes.decode()
+                            except sub.TimeoutExpired:
+                                output = "Mutant '" + muName + "' timed out!"
 
                             nMutants += 1
                             if output.startswith(testPass):

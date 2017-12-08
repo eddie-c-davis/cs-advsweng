@@ -1,0 +1,2690 @@
+Compiling mutant: 'SDL_23' in method 'void_returnCoins()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testReturn(test.TestCoins): Deposit == 0
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ASRS_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'ASRS_2' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'ASRS_4' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 10 ms
+
+Compiling mutant: 'ODL_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'ASRS_1' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_20' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_2' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_2' lives!
+Compiling mutant: 'SDL_4' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): null
+testQuarter(test.TestCoins): null
+testDollar(test.TestCoins): null
+testNickel(test.TestCoins): null
+testReturn(test.TestCoins): null
+testJuice(test.TestDrinks): null
+testSoda(test.TestDrinks): null
+testCoffee(test.TestDrinks): null
+test1(test.VendingTest): null
+0/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_5' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): null
+testQuarter(test.TestCoins): null
+testDollar(test.TestCoins): null
+testNickel(test.TestCoins): null
+testReturn(test.TestCoins): null
+testJuice(test.TestDrinks): null
+testSoda(test.TestDrinks): null
+testCoffee(test.TestDrinks): null
+test1(test.VendingTest): null
+0/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_1' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_1' lives!
+Compiling mutant: 'SDL_3' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): null
+testQuarter(test.TestCoins): null
+testDollar(test.TestCoins): null
+testNickel(test.TestCoins): null
+testReturn(test.TestCoins): null
+testJuice(test.TestDrinks): null
+testSoda(test.TestDrinks): null
+testCoffee(test.TestDrinks): null
+test1(test.VendingTest): null
+0/9 tests passed in 8 ms
+
+Compiling mutant: 'LOI_10' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 10 ms
+
+Compiling mutant: 'AOIS_24' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_24' lives!
+Compiling mutant: 'AOIS_23' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_23' lives!
+Compiling mutant: 'SDL_22' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIU_9' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_20' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_20' lives!
+Compiling mutant: 'VDL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AORB_3' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_17' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AORB_2' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AORB_4' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_13' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'VDL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_16' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_16' lives!
+Compiling mutant: 'SDL_19' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+test1(test.VendingTest): 
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 10 ms
+
+Compiling mutant: 'AOIS_14' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_18' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'LOI_7' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_19' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_19' lives!
+Compiling mutant: 'AOIU_7' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_18' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AORB_1' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_15' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_15' lives!
+Compiling mutant: 'LOI_8' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_21' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIU_8' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+0/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_21' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_9' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+0/9 tests passed in 12 ms
+
+Compiling mutant: 'AOIS_22' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 17 ms
+
+Compiling mutant: 'AOIU_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Testing drink countCoffee
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIU_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_4' lives!
+Compiling mutant: 'AOIS_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_1' lives!
+Compiling mutant: 'AOIU_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+test1(test.VendingTest): 
+7/9 tests passed in 11 ms
+
+Compiling mutant: 'LOI_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 13 ms
+
+Compiling mutant: 'SDL_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Testing drink countCoffee
+8/9 tests passed in 19 ms
+
+Compiling mutant: 'SDL_14' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_3' lives!
+Compiling mutant: 'SDL_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+testSoda(test.TestDrinks): Testing drink countSoda
+test1(test.VendingTest): 
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_6' lives!
+Compiling mutant: 'SDL_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_11' lives!
+Compiling mutant: 'LOI_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIU_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+testSoda(test.TestDrinks): Testing drink countSoda
+testCoffee(test.TestDrinks): Testing drink countCoffee
+test1(test.VendingTest): 
+5/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_15' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 11 ms
+
+Compiling mutant: 'LOI_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_13' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+testSoda(test.TestDrinks): Testing drink countSoda
+test1(test.VendingTest): 
+6/9 tests passed in 11 ms
+
+Compiling mutant: 'AOIU_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 12 ms
+
+Compiling mutant: 'LOI_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_12' lives!
+Compiling mutant: 'AOIU_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_7' lives!
+Compiling mutant: 'AOIS_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_10' lives!
+Compiling mutant: 'SDL_17' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_17' lives!
+Compiling mutant: 'LOI_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Testing drink countCoffee
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_8' lives!
+Compiling mutant: 'AOIS_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_5' lives!
+Compiling mutant: 'AOIS_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_2' lives!
+Compiling mutant: 'AOIS_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_9' lives!
+Compiling mutant: 'SDL_16' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Count is reduced
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_20' lives!
+Compiling mutant: 'ROR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_5' lives!
+Compiling mutant: 'SDL_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_44' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+6/9 tests passed in 12 ms
+
+Compiling mutant: 'ROR_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 11 ms
+
+Compiling mutant: 'COI_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'ODL_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_40' lives!
+Compiling mutant: 'ROR_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_33' lives!
+Compiling mutant: 'COI_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_8' lives!
+Compiling mutant: 'SDL_43' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'COI_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_16' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 11 ms
+
+Compiling mutant: 'COI_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_18' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'COR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Count is reduced
+8/9 tests passed in 13 ms
+
+Compiling mutant: 'COI_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'COR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_15' lives!
+Compiling mutant: 'ROR_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 11 ms
+
+Compiling mutant: 'SDL_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ODL_15' lives!
+Compiling mutant: 'ROR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_1' lives!
+Compiling mutant: 'AOIS_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Count is reduced
+testSoda(test.TestDrinks): Count is reduced
+test1(test.VendingTest): 
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 14 ms
+
+Compiling mutant: 'AOIS_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_45' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+testSoda(test.TestDrinks): Test no purchase if NSF
+testCoffee(test.TestDrinks): Test no purchase if NSF
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_17' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_19' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_19' lives!
+Compiling mutant: 'COI_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+5/9 tests passed in 13 ms
+
+Compiling mutant: 'SDL_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_29' lives!
+Compiling mutant: 'ROR_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 11 ms
+
+Compiling mutant: 'AOIS_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_34' lives!
+Compiling mutant: 'ODL_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ODL_9' lives!
+Compiling mutant: 'ROR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_10' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_6' lives!
+Compiling mutant: 'LOI_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ODL_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ODL_21' lives!
+Compiling mutant: 'ROR_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_36' lives!
+Compiling mutant: 'SDL_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+7/9 tests passed in 12 ms
+
+Compiling mutant: 'SDL_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Count is reduced
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_22' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_22' lives!
+Compiling mutant: 'ROR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 11 ms
+
+Compiling mutant: 'COR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 14 ms
+
+Compiling mutant: 'ROR_23' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 16 ms
+
+Compiling mutant: 'SDL_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Count is reduced
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_23' in method 'void_returnCoins()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testReturn(test.TestCoins): Deposit == 0
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'ASRS_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'ASRS_2' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'ASRS_4' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'ODL_3' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+6/9 tests passed in 10 ms
+
+Compiling mutant: 'ASRS_1' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 14 ms
+
+Compiling mutant: 'SDL_20' in method 'void_insertCoin(vending.Coin)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+0/9 tests passed in 11 ms
+
+Compiling mutant: 'SDL_2' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_2' lives!
+Compiling mutant: 'SDL_4' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): null
+testQuarter(test.TestCoins): null
+testDollar(test.TestCoins): null
+testNickel(test.TestCoins): null
+testReturn(test.TestCoins): null
+testJuice(test.TestDrinks): null
+testSoda(test.TestDrinks): null
+testCoffee(test.TestDrinks): null
+test1(test.VendingTest): null
+0/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_5' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): null
+testQuarter(test.TestCoins): null
+testDollar(test.TestCoins): null
+testNickel(test.TestCoins): null
+testReturn(test.TestCoins): null
+testJuice(test.TestDrinks): null
+testSoda(test.TestDrinks): null
+testCoffee(test.TestDrinks): null
+test1(test.VendingTest): null
+0/9 tests passed in 12 ms
+
+Compiling mutant: 'SDL_1' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_1' lives!
+Compiling mutant: 'SDL_3' in method 'VendingMachine()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): null
+testQuarter(test.TestCoins): null
+testDollar(test.TestCoins): null
+testNickel(test.TestCoins): null
+testReturn(test.TestCoins): null
+testJuice(test.TestDrinks): null
+testSoda(test.TestDrinks): null
+testCoffee(test.TestDrinks): null
+test1(test.VendingTest): null
+0/9 tests passed in 12 ms
+
+Compiling mutant: 'LOI_10' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 10 ms
+
+Compiling mutant: 'AOIS_24' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_24' lives!
+Compiling mutant: 'AOIS_23' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_23' lives!
+Compiling mutant: 'SDL_22' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIU_9' in method 'int_getChange()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_20' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_20' lives!
+Compiling mutant: 'VDL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 10 ms
+
+Compiling mutant: 'AORB_3' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 11 ms
+
+Compiling mutant: 'AOIS_17' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AORB_2' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 15 ms
+
+Compiling mutant: 'AORB_4' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_13' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'VDL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_16' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_16' lives!
+Compiling mutant: 'SDL_19' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+test1(test.VendingTest): 
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_1' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_14' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 13 ms
+
+Compiling mutant: 'AOIS_18' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'LOI_7' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_19' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_19' lives!
+Compiling mutant: 'AOIU_7' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_18' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AORB_1' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_15' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_15' lives!
+Compiling mutant: 'LOI_8' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 7 ms
+
+Compiling mutant: 'ODL_2' in method 'void_calculateChange(int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 11 ms
+
+Compiling mutant: 'AOIS_21' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIU_8' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+0/9 tests passed in 11 ms
+
+Compiling mutant: 'SDL_21' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+0/9 tests passed in 10 ms
+
+Compiling mutant: 'LOI_9' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testDime(test.TestCoins): Inserting Dime
+testQuarter(test.TestCoins): Inserting Quarter
+testDollar(test.TestCoins): Inserting Quarter
+testNickel(test.TestCoins): Inserting Nickel
+testReturn(test.TestCoins): Deposit > 0
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+0/9 tests passed in 12 ms
+
+Compiling mutant: 'AOIS_22' in method 'int_getDeposit()'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+testSoda(test.TestDrinks): Test proper change
+testCoffee(test.TestDrinks): Test proper change
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIU_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Testing drink countCoffee
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'AOIU_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 12 ms
+
+Compiling mutant: 'AOIS_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_4' lives!
+Compiling mutant: 'AOIS_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_1' lives!
+Compiling mutant: 'AOIU_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+test1(test.VendingTest): 
+7/9 tests passed in 12 ms
+
+Compiling mutant: 'LOI_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 11 ms
+
+Compiling mutant: 'SDL_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Testing drink countCoffee
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_14' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_3' lives!
+Compiling mutant: 'SDL_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+testSoda(test.TestDrinks): Testing drink countSoda
+test1(test.VendingTest): 
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_6' lives!
+Compiling mutant: 'SDL_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_11' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_11' lives!
+Compiling mutant: 'LOI_3' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 18 ms
+
+Compiling mutant: 'AOIU_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_6' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+testSoda(test.TestDrinks): Testing drink countSoda
+testCoffee(test.TestDrinks): Testing drink countCoffee
+test1(test.VendingTest): 
+5/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_15' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_4' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_13' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'SDL_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Testing drink countJuice
+testSoda(test.TestDrinks): Testing drink countSoda
+test1(test.VendingTest): 
+6/9 tests passed in 10 ms
+
+Compiling mutant: 'AOIU_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'LOI_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'AOIS_12' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_12' lives!
+Compiling mutant: 'AOIU_1' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_7' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_7' lives!
+Compiling mutant: 'AOIS_10' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_10' lives!
+Compiling mutant: 'SDL_17' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_17' lives!
+Compiling mutant: 'LOI_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Testing drink countCoffee
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_8' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_8' lives!
+Compiling mutant: 'AOIS_5' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_5' lives!
+Compiling mutant: 'AOIS_2' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_2' lives!
+Compiling mutant: 'AOIS_9' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'AOIS_9' lives!
+Compiling mutant: 'SDL_16' in method 'void_setDrink(java.lang.String,int,int)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Testing drink countSoda
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Count is reduced
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'AOIS_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_20' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_20' lives!
+Compiling mutant: 'ROR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_5' lives!
+Compiling mutant: 'SDL_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_44' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+6/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ODL_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_13' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_39' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'SDL_40' lives!
+Compiling mutant: 'ROR_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_33' lives!
+Compiling mutant: 'COI_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_8' lives!
+Compiling mutant: 'SDL_43' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'COI_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_16' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'COI_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_18' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'COR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Count is reduced
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'COR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'COR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_15' lives!
+Compiling mutant: 'ROR_40' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_42' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_25' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 10 ms
+
+Compiling mutant: 'ROR_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ODL_15' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ODL_15' lives!
+Compiling mutant: 'ROR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_1' lives!
+Compiling mutant: 'AOIS_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COR_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_7' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Count is reduced
+testSoda(test.TestDrinks): Count is reduced
+test1(test.VendingTest): 
+6/9 tests passed in 11 ms
+
+Compiling mutant: 'ROR_41' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 10 ms
+
+Compiling mutant: 'AOIS_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_45' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+testSoda(test.TestDrinks): Test no purchase if NSF
+testCoffee(test.TestDrinks): Test no purchase if NSF
+6/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_17' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_19' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_19' lives!
+Compiling mutant: 'COI_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'LOI_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'AOIS_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_8' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_24' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+testSoda(test.TestDrinks): Test purchased
+testCoffee(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+5/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_31' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_14' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_29' lives!
+Compiling mutant: 'ROR_37' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_26' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_27' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_34' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_34' lives!
+Compiling mutant: 'ODL_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ODL_9' lives!
+Compiling mutant: 'ROR_2' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_10' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_6' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_6' lives!
+Compiling mutant: 'LOI_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_11' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ODL_21' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ODL_21' lives!
+Compiling mutant: 'ROR_12' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'ROR_9' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'AOIS_33' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test proper change
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COR_5' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_32' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testSoda(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'SDL_30' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test no purchase if NSF
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'COI_1' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_36' lives!
+Compiling mutant: 'SDL_36' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test proper change
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_28' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Count is reduced
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_38' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test purchased
+8/9 tests passed in 8 ms
+
+Compiling mutant: 'SDL_29' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test proper change
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'ROR_22' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+Mutant 'ROR_22' lives!
+Compiling mutant: 'ROR_3' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testCoffee(test.TestDrinks): Test purchased
+8/9 tests passed in 7 ms
+
+Compiling mutant: 'COR_4' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'ROR_23' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Test no purchase if NSF
+test1(test.VendingTest): 
+7/9 tests passed in 9 ms
+
+Compiling mutant: 'SDL_35' in method 'boolean_purchase(java.lang.String)'
+/usr/bin/javac /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.java
+mv /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/src/vending/VendingMachine.class /home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin/vending/VendingMachine.class
+java test.TestRunner
+testJuice(test.TestDrinks): Count is reduced
+test1(test.VendingTest): 
+7/9 tests passed in 8 ms
+

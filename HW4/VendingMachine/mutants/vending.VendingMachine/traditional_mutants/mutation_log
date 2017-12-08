@@ -1,0 +1,197 @@
+AORB_1:70:void_calculateChange(int):deposit - price => deposit * price
+AORB_2:70:void_calculateChange(int):deposit - price => deposit / price
+AORB_3:70:void_calculateChange(int):deposit - price => deposit % price
+AORB_4:70:void_calculateChange(int):deposit - price => deposit + price
+AOIU_1:53:void_setDrink(java.lang.String,int,int):newPrice => -newPrice
+AOIU_2:54:void_setDrink(java.lang.String,int,int):newCount => -newCount
+AOIU_3:57:void_setDrink(java.lang.String,int,int):newPrice => -newPrice
+AOIU_4:58:void_setDrink(java.lang.String,int,int):newCount => -newCount
+AOIU_5:61:void_setDrink(java.lang.String,int,int):newPrice => -newPrice
+AOIU_6:62:void_setDrink(java.lang.String,int,int):newCount => -newCount
+AOIU_7:70:void_calculateChange(int):deposit => -deposit
+AOIU_8:81:int_getDeposit():deposit => -deposit
+AOIU_9:86:int_getChange():change => -change
+AOIS_1:53:void_setDrink(java.lang.String,int,int):newPrice => newPrice++
+AOIS_2:53:void_setDrink(java.lang.String,int,int):newPrice => newPrice--
+AOIS_3:54:void_setDrink(java.lang.String,int,int):newCount => newCount++
+AOIS_4:54:void_setDrink(java.lang.String,int,int):newCount => newCount--
+AOIS_5:57:void_setDrink(java.lang.String,int,int):newPrice => newPrice++
+AOIS_6:57:void_setDrink(java.lang.String,int,int):newPrice => newPrice--
+AOIS_7:58:void_setDrink(java.lang.String,int,int):newCount => newCount++
+AOIS_8:58:void_setDrink(java.lang.String,int,int):newCount => newCount--
+AOIS_9:61:void_setDrink(java.lang.String,int,int):newPrice => newPrice++
+AOIS_10:61:void_setDrink(java.lang.String,int,int):newPrice => newPrice--
+AOIS_11:62:void_setDrink(java.lang.String,int,int):newCount => newCount++
+AOIS_12:62:void_setDrink(java.lang.String,int,int):newCount => newCount--
+AOIS_13:70:void_calculateChange(int):deposit => ++deposit
+AOIS_14:70:void_calculateChange(int):deposit => --deposit
+AOIS_15:70:void_calculateChange(int):deposit => deposit++
+AOIS_16:70:void_calculateChange(int):deposit => deposit--
+AOIS_17:70:void_calculateChange(int):price => ++price
+AOIS_18:70:void_calculateChange(int):price => --price
+AOIS_19:70:void_calculateChange(int):price => price++
+AOIS_20:70:void_calculateChange(int):price => price--
+AOIS_21:81:int_getDeposit():deposit => deposit++
+AOIS_22:81:int_getDeposit():deposit => deposit--
+AOIS_23:86:int_getChange():change => change++
+AOIS_24:86:int_getChange():change => change--
+AOIS_25:97:boolean_purchase(java.lang.String):deposit => ++deposit
+AOIS_26:97:boolean_purchase(java.lang.String):deposit => --deposit
+AOIS_27:97:boolean_purchase(java.lang.String):deposit => deposit++
+AOIS_28:97:boolean_purchase(java.lang.String):deposit => deposit--
+AOIS_29:104:boolean_purchase(java.lang.String):deposit => ++deposit
+AOIS_30:104:boolean_purchase(java.lang.String):deposit => --deposit
+AOIS_31:104:boolean_purchase(java.lang.String):deposit => deposit++
+AOIS_32:104:boolean_purchase(java.lang.String):deposit => deposit--
+AOIS_33:111:boolean_purchase(java.lang.String):deposit => ++deposit
+AOIS_34:111:boolean_purchase(java.lang.String):deposit => --deposit
+AOIS_35:111:boolean_purchase(java.lang.String):deposit => deposit++
+AOIS_36:111:boolean_purchase(java.lang.String):deposit => deposit--
+ROR_1:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   coffee.getCount() >= 0
+ROR_2:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   coffee.getCount() < 0
+ROR_3:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   coffee.getCount() <= 0
+ROR_4:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   coffee.getCount() == 0
+ROR_5:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   coffee.getCount() != 0
+ROR_6:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   true
+ROR_7:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>   false
+ROR_8:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   deposit > coffee.getPrice()
+ROR_9:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   deposit < coffee.getPrice()
+ROR_10:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   deposit <= coffee.getPrice()
+ROR_11:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   deposit == coffee.getPrice()
+ROR_12:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   deposit != coffee.getPrice()
+ROR_13:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   true
+ROR_14:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>   false
+ROR_15:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   juice.getCount() >= 0
+ROR_16:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   juice.getCount() < 0
+ROR_17:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   juice.getCount() <= 0
+ROR_18:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   juice.getCount() == 0
+ROR_19:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   juice.getCount() != 0
+ROR_20:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   true
+ROR_21:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>   false
+ROR_22:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   deposit > juice.getPrice()
+ROR_23:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   deposit < juice.getPrice()
+ROR_24:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   deposit <= juice.getPrice()
+ROR_25:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   deposit == juice.getPrice()
+ROR_26:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   deposit != juice.getPrice()
+ROR_27:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   true
+ROR_28:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>   false
+ROR_29:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   soda.getCount() >= 0
+ROR_30:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   soda.getCount() < 0
+ROR_31:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   soda.getCount() <= 0
+ROR_32:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   soda.getCount() == 0
+ROR_33:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   soda.getCount() != 0
+ROR_34:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   true
+ROR_35:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>   false
+ROR_36:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   deposit > soda.getPrice()
+ROR_37:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   deposit < soda.getPrice()
+ROR_38:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   deposit <= soda.getPrice()
+ROR_39:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   deposit == soda.getPrice()
+ROR_40:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   deposit != soda.getPrice()
+ROR_41:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   true
+ROR_42:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>   false
+COR_1:97:boolean_purchase(java.lang.String): coffee.getCount() > 0 && deposit >= coffee.getPrice()  =>   coffee.getCount() > 0 || deposit >= coffee.getPrice()
+COR_2:97:boolean_purchase(java.lang.String): coffee.getCount() > 0 && deposit >= coffee.getPrice()  =>   coffee.getCount() > 0 ^ deposit >= coffee.getPrice()
+COR_3:104:boolean_purchase(java.lang.String): juice.getCount() > 0 && deposit >= juice.getPrice()  =>   juice.getCount() > 0 || deposit >= juice.getPrice()
+COR_4:104:boolean_purchase(java.lang.String): juice.getCount() > 0 && deposit >= juice.getPrice()  =>   juice.getCount() > 0 ^ deposit >= juice.getPrice()
+COR_5:111:boolean_purchase(java.lang.String): soda.getCount() > 0 && deposit >= soda.getPrice()  =>   soda.getCount() > 0 || deposit >= soda.getPrice()
+COR_6:111:boolean_purchase(java.lang.String): soda.getCount() > 0 && deposit >= soda.getPrice()  =>   soda.getCount() > 0 ^ deposit >= soda.getPrice()
+COI_1:97:boolean_purchase(java.lang.String): coffee.getCount() > 0  =>  !(coffee.getCount() > 0)
+COI_2:97:boolean_purchase(java.lang.String): deposit >= coffee.getPrice()  =>  !(deposit >= coffee.getPrice())
+COI_3:97:boolean_purchase(java.lang.String): coffee.getCount() > 0 && deposit >= coffee.getPrice()  =>  !(coffee.getCount() > 0 && deposit >= coffee.getPrice())
+COI_4:104:boolean_purchase(java.lang.String): juice.getCount() > 0  =>  !(juice.getCount() > 0)
+COI_5:104:boolean_purchase(java.lang.String): deposit >= juice.getPrice()  =>  !(deposit >= juice.getPrice())
+COI_6:104:boolean_purchase(java.lang.String): juice.getCount() > 0 && deposit >= juice.getPrice()  =>  !(juice.getCount() > 0 && deposit >= juice.getPrice())
+COI_7:111:boolean_purchase(java.lang.String): soda.getCount() > 0  =>  !(soda.getCount() > 0)
+COI_8:111:boolean_purchase(java.lang.String): deposit >= soda.getPrice()  =>  !(deposit >= soda.getPrice())
+COI_9:111:boolean_purchase(java.lang.String): soda.getCount() > 0 && deposit >= soda.getPrice()  =>  !(soda.getCount() > 0 && deposit >= soda.getPrice())
+LOI_1:53:void_setDrink(java.lang.String,int,int):newPrice => ~newPrice
+LOI_2:54:void_setDrink(java.lang.String,int,int):newCount => ~newCount
+LOI_3:57:void_setDrink(java.lang.String,int,int):newPrice => ~newPrice
+LOI_4:58:void_setDrink(java.lang.String,int,int):newCount => ~newCount
+LOI_5:61:void_setDrink(java.lang.String,int,int):newPrice => ~newPrice
+LOI_6:62:void_setDrink(java.lang.String,int,int):newCount => ~newCount
+LOI_7:70:void_calculateChange(int):deposit => ~deposit
+LOI_8:70:void_calculateChange(int):price => ~price
+LOI_9:81:int_getDeposit():deposit => ~deposit
+LOI_10:86:int_getChange():change => ~change
+LOI_11:97:boolean_purchase(java.lang.String):deposit => ~deposit
+LOI_12:104:boolean_purchase(java.lang.String):deposit => ~deposit
+LOI_13:111:boolean_purchase(java.lang.String):deposit => ~deposit
+ASRS_1:76:void_insertCoin(vending.Coin):deposit += coin.value() => deposit /= coin.value()
+ASRS_2:76:void_insertCoin(vending.Coin):deposit += coin.value() => deposit *= coin.value()
+ASRS_3:76:void_insertCoin(vending.Coin):deposit += coin.value() => deposit -= coin.value()
+ASRS_4:76:void_insertCoin(vending.Coin):deposit += coin.value() => deposit %= coin.value()
+SDL_1:32:VendingMachine(): deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );  =>   change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );
+SDL_2:32:VendingMachine(): deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );  =>   deposit = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );
+SDL_3:32:VendingMachine(): deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );  =>   deposit = 0; change = 0; juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );
+SDL_4:32:VendingMachine(): deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );  =>   deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );
+SDL_5:32:VendingMachine(): deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 ); soda = new vending.Drink( SODA, 0, 0 );  =>   deposit = 0; change = 0; coffee = new vending.Drink( COFFEE, 0, 0 ); juice = new vending.Drink( JUICE, 0, 0 );
+SDL_6:52:void_setDrink(java.lang.String,int,int): if (drink.equalsIgnoreCase( COFFEE )) {     coffee.setPrice( newPrice );     coffee.setCount( newCount ); } else {     if (drink.equalsIgnoreCase( JUICE )) {         juice.setPrice( newPrice );         juice.setCount( newCount );     } else {         if (drink.equalsIgnoreCase( SODA )) {             soda.setPrice( newPrice );             soda.setCount( newCount );         }     } }  =>  
+SDL_7:54:void_setDrink(java.lang.String,int,int): coffee.setPrice( newPrice ); coffee.setCount( newCount );  =>   coffee.setCount( newCount );
+SDL_8:54:void_setDrink(java.lang.String,int,int): coffee.setPrice( newPrice ); coffee.setCount( newCount );  =>   coffee.setPrice( newPrice );
+SDL_9:66:void_setDrink(java.lang.String,int,int): if (drink.equalsIgnoreCase( COFFEE )) {     coffee.setPrice( newPrice );     coffee.setCount( newCount ); } else {     if (drink.equalsIgnoreCase( JUICE )) {         juice.setPrice( newPrice );         juice.setCount( newCount );     } else {         if (drink.equalsIgnoreCase( SODA )) {             soda.setPrice( newPrice );             soda.setCount( newCount );         }     } }  =>   if (true) {     coffee.setPrice( newPrice );     coffee.setCount( newCount ); } else {     if (drink.equalsIgnoreCase( JUICE )) {         juice.setPrice( newPrice );         juice.setCount( newCount );     } else {         if (drink.equalsIgnoreCase( SODA )) {             soda.setPrice( newPrice );             soda.setCount( newCount );         }     } }
+SDL_10:56:void_setDrink(java.lang.String,int,int): if (drink.equalsIgnoreCase( JUICE )) {     juice.setPrice( newPrice );     juice.setCount( newCount ); } else {     if (drink.equalsIgnoreCase( SODA )) {         soda.setPrice( newPrice );         soda.setCount( newCount );     } }  =>  
+SDL_11:58:void_setDrink(java.lang.String,int,int): juice.setPrice( newPrice ); juice.setCount( newCount );  =>   juice.setCount( newCount );
+SDL_12:58:void_setDrink(java.lang.String,int,int): juice.setPrice( newPrice ); juice.setCount( newCount );  =>   juice.setPrice( newPrice );
+SDL_13:65:void_setDrink(java.lang.String,int,int): if (drink.equalsIgnoreCase( JUICE )) {     juice.setPrice( newPrice );     juice.setCount( newCount ); } else {     if (drink.equalsIgnoreCase( SODA )) {         soda.setPrice( newPrice );         soda.setCount( newCount );     } }  =>   if (true) {     juice.setPrice( newPrice );     juice.setCount( newCount ); } else {     if (drink.equalsIgnoreCase( SODA )) {         soda.setPrice( newPrice );         soda.setCount( newCount );     } }
+SDL_14:60:void_setDrink(java.lang.String,int,int): if (drink.equalsIgnoreCase( SODA )) {     soda.setPrice( newPrice );     soda.setCount( newCount ); }  =>  
+SDL_15:62:void_setDrink(java.lang.String,int,int): soda.setPrice( newPrice ); soda.setCount( newCount );  =>   soda.setCount( newCount );
+SDL_16:62:void_setDrink(java.lang.String,int,int): soda.setPrice( newPrice ); soda.setCount( newCount );  =>   soda.setPrice( newPrice );
+SDL_17:64:void_setDrink(java.lang.String,int,int): if (drink.equalsIgnoreCase( SODA )) {     soda.setPrice( newPrice );     soda.setCount( newCount ); }  =>   if (true) {     soda.setPrice( newPrice );     soda.setCount( newCount ); }
+SDL_18:71:void_calculateChange(int): change = deposit - price; deposit = 0;  =>   deposit = 0;
+SDL_19:71:void_calculateChange(int): change = deposit - price; deposit = 0;  =>   change = deposit - price;
+SDL_20:76:void_insertCoin(vending.Coin): deposit += coin.value();  =>  
+SDL_21:82:int_getDeposit(): return deposit;  =>   return 0;
+SDL_22:87:int_getChange(): return change;  =>   return 0;
+SDL_23:91:void_returnCoins(): deposit = 0;  =>  
+SDL_24:97:boolean_purchase(java.lang.String): if (drink.equalsIgnoreCase( COFFEE )) {     if (coffee.getCount() > 0 && deposit >= coffee.getPrice()) {         coffee.sell();         calculateChange( coffee.getPrice() );         return true;     } } else {     if (drink.equalsIgnoreCase( JUICE )) {         if (juice.getCount() > 0 && deposit >= juice.getPrice()) {             juice.sell();             calculateChange( juice.getPrice() );             return true;         }     } else {         if (drink.equalsIgnoreCase( SODA )) {             if (soda.getCount() > 0 && deposit >= soda.getPrice()) {                 soda.sell();                 calculateChange( soda.getPrice() );                 return true;             }         }     } } return false;  =>   return false;
+SDL_25:97:boolean_purchase(java.lang.String): if (coffee.getCount() > 0 && deposit >= coffee.getPrice()) {     coffee.sell();     calculateChange( coffee.getPrice() );     return true; }  =>  
+SDL_26:119:boolean_purchase(java.lang.String): if (drink.equalsIgnoreCase( COFFEE )) {     if (coffee.getCount() > 0 && deposit >= coffee.getPrice()) {         coffee.sell();         calculateChange( coffee.getPrice() );         return true;     } } else {     if (drink.equalsIgnoreCase( JUICE )) {         if (juice.getCount() > 0 && deposit >= juice.getPrice()) {             juice.sell();             calculateChange( juice.getPrice() );             return true;         }     } else {         if (drink.equalsIgnoreCase( SODA )) {             if (soda.getCount() > 0 && deposit >= soda.getPrice()) {                 soda.sell();                 calculateChange( soda.getPrice() );                 return true;             }         }     } }  =>   if (true) {     if (coffee.getCount() > 0 && deposit >= coffee.getPrice()) {         coffee.sell();         calculateChange( coffee.getPrice() );         return true;     } } else {     if (drink.equalsIgnoreCase( JUICE )) {         if (juice.getCount() > 0 && deposit >= juice.getPrice()) {             juice.sell();             calculateChange( juice.getPrice() );             return true;         }     } else {         if (drink.equalsIgnoreCase( SODA )) {             if (soda.getCount() > 0 && deposit >= soda.getPrice()) {                 soda.sell();                 calculateChange( soda.getPrice() );                 return true;             }         }     } }
+SDL_27:103:boolean_purchase(java.lang.String): if (drink.equalsIgnoreCase( JUICE )) {     if (juice.getCount() > 0 && deposit >= juice.getPrice()) {         juice.sell();         calculateChange( juice.getPrice() );         return true;     } } else {     if (drink.equalsIgnoreCase( SODA )) {         if (soda.getCount() > 0 && deposit >= soda.getPrice()) {             soda.sell();             calculateChange( soda.getPrice() );             return true;         }     } }  =>  
+SDL_28:100:boolean_purchase(java.lang.String): coffee.sell(); calculateChange( coffee.getPrice() ); return true;  =>   calculateChange( coffee.getPrice() ); return true;
+SDL_29:100:boolean_purchase(java.lang.String): coffee.sell(); calculateChange( coffee.getPrice() ); return true;  =>   coffee.sell(); return true;
+SDL_30:102:boolean_purchase(java.lang.String): if (coffee.getCount() > 0 && deposit >= coffee.getPrice()) {     coffee.sell();     calculateChange( coffee.getPrice() );     return true; }  =>   if (true) {     coffee.sell();     calculateChange( coffee.getPrice() );     return true; }
+SDL_31:101:boolean_purchase(java.lang.String): return true;  =>   return false;
+SDL_32:104:boolean_purchase(java.lang.String): if (juice.getCount() > 0 && deposit >= juice.getPrice()) {     juice.sell();     calculateChange( juice.getPrice() );     return true; }  =>  
+SDL_33:118:boolean_purchase(java.lang.String): if (drink.equalsIgnoreCase( JUICE )) {     if (juice.getCount() > 0 && deposit >= juice.getPrice()) {         juice.sell();         calculateChange( juice.getPrice() );         return true;     } } else {     if (drink.equalsIgnoreCase( SODA )) {         if (soda.getCount() > 0 && deposit >= soda.getPrice()) {             soda.sell();             calculateChange( soda.getPrice() );             return true;         }     } }  =>   if (true) {     if (juice.getCount() > 0 && deposit >= juice.getPrice()) {         juice.sell();         calculateChange( juice.getPrice() );         return true;     } } else {     if (drink.equalsIgnoreCase( SODA )) {         if (soda.getCount() > 0 && deposit >= soda.getPrice()) {             soda.sell();             calculateChange( soda.getPrice() );             return true;         }     } }
+SDL_34:110:boolean_purchase(java.lang.String): if (drink.equalsIgnoreCase( SODA )) {     if (soda.getCount() > 0 && deposit >= soda.getPrice()) {         soda.sell();         calculateChange( soda.getPrice() );         return true;     } }  =>  
+SDL_35:107:boolean_purchase(java.lang.String): juice.sell(); calculateChange( juice.getPrice() ); return true;  =>   calculateChange( juice.getPrice() ); return true;
+SDL_36:107:boolean_purchase(java.lang.String): juice.sell(); calculateChange( juice.getPrice() ); return true;  =>   juice.sell(); return true;
+SDL_37:109:boolean_purchase(java.lang.String): if (juice.getCount() > 0 && deposit >= juice.getPrice()) {     juice.sell();     calculateChange( juice.getPrice() );     return true; }  =>   if (true) {     juice.sell();     calculateChange( juice.getPrice() );     return true; }
+SDL_38:108:boolean_purchase(java.lang.String): return true;  =>   return false;
+SDL_39:111:boolean_purchase(java.lang.String): if (soda.getCount() > 0 && deposit >= soda.getPrice()) {     soda.sell();     calculateChange( soda.getPrice() );     return true; }  =>  
+SDL_40:117:boolean_purchase(java.lang.String): if (drink.equalsIgnoreCase( SODA )) {     if (soda.getCount() > 0 && deposit >= soda.getPrice()) {         soda.sell();         calculateChange( soda.getPrice() );         return true;     } }  =>   if (true) {     if (soda.getCount() > 0 && deposit >= soda.getPrice()) {         soda.sell();         calculateChange( soda.getPrice() );         return true;     } }
+SDL_41:114:boolean_purchase(java.lang.String): soda.sell(); calculateChange( soda.getPrice() ); return true;  =>   calculateChange( soda.getPrice() ); return true;
+SDL_42:114:boolean_purchase(java.lang.String): soda.sell(); calculateChange( soda.getPrice() ); return true;  =>   soda.sell(); return true;
+SDL_43:116:boolean_purchase(java.lang.String): if (soda.getCount() > 0 && deposit >= soda.getPrice()) {     soda.sell();     calculateChange( soda.getPrice() );     return true; }  =>   if (true) {     soda.sell();     calculateChange( soda.getPrice() );     return true; }
+SDL_44:115:boolean_purchase(java.lang.String): return true;  =>   return false;
+SDL_45:120:boolean_purchase(java.lang.String): return false;  =>   return true;
+VDL_1:70:void_calculateChange(int):deposit - price => price
+VDL_2:70:void_calculateChange(int):deposit - price => deposit
+VDL_3:97:boolean_purchase(java.lang.String):deposit >= coffee.getPrice() => coffee.getPrice()
+VDL_4:104:boolean_purchase(java.lang.String):deposit >= juice.getPrice() => juice.getPrice()
+VDL_5:111:boolean_purchase(java.lang.String):deposit >= soda.getPrice() => soda.getPrice()
+ODL_1:70:void_calculateChange(int):deposit - price => deposit
+ODL_2:70:void_calculateChange(int):deposit - price => price
+ODL_3:76:void_insertCoin(vending.Coin):deposit += coin.value() => deposit = coin.value()
+ODL_4:97:boolean_purchase(java.lang.String):coffee.getCount() > 0 => coffee.getCount()
+ODL_5:97:boolean_purchase(java.lang.String):coffee.getCount() > 0 => 0
+ODL_6:97:boolean_purchase(java.lang.String):deposit >= coffee.getPrice() => deposit
+ODL_7:97:boolean_purchase(java.lang.String):deposit >= coffee.getPrice() => coffee.getPrice()
+ODL_8:97:boolean_purchase(java.lang.String):coffee.getCount() > 0 && deposit >= coffee.getPrice() => coffee.getCount() > 0
+ODL_9:97:boolean_purchase(java.lang.String):coffee.getCount() > 0 && deposit >= coffee.getPrice() => deposit >= coffee.getPrice()
+ODL_10:104:boolean_purchase(java.lang.String):juice.getCount() > 0 => juice.getCount()
+ODL_11:104:boolean_purchase(java.lang.String):juice.getCount() > 0 => 0
+ODL_12:104:boolean_purchase(java.lang.String):deposit >= juice.getPrice() => deposit
+ODL_13:104:boolean_purchase(java.lang.String):deposit >= juice.getPrice() => juice.getPrice()
+ODL_14:104:boolean_purchase(java.lang.String):juice.getCount() > 0 && deposit >= juice.getPrice() => juice.getCount() > 0
+ODL_15:104:boolean_purchase(java.lang.String):juice.getCount() > 0 && deposit >= juice.getPrice() => deposit >= juice.getPrice()
+ODL_16:111:boolean_purchase(java.lang.String):soda.getCount() > 0 => soda.getCount()
+ODL_17:111:boolean_purchase(java.lang.String):soda.getCount() > 0 => 0
+ODL_18:111:boolean_purchase(java.lang.String):deposit >= soda.getPrice() => deposit
+ODL_19:111:boolean_purchase(java.lang.String):deposit >= soda.getPrice() => soda.getPrice()
+ODL_20:111:boolean_purchase(java.lang.String):soda.getCount() > 0 && deposit >= soda.getPrice() => soda.getCount() > 0
+ODL_21:111:boolean_purchase(java.lang.String):soda.getCount() > 0 && deposit >= soda.getPrice() => deposit >= soda.getPrice()
+CDL_1:97:boolean_purchase(java.lang.String):coffee.getCount() > 0 => coffee.getCount()
+CDL_2:104:boolean_purchase(java.lang.String):juice.getCount() > 0 => juice.getCount()
+CDL_3:111:boolean_purchase(java.lang.String):soda.getCount() > 0 => soda.getCount()
