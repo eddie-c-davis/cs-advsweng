@@ -36,21 +36,55 @@ public class TestFSM {
     public void test_1() {
         VendingMachine vm = new VendingMachine();
         // Empty
-        assertTrue(vm.getDeposit() == 0);
+        assertTrue("deposit == 0", vm.getDeposit() == 0);
         insertCoin(vm);
         // HasDeposit
-        assertTrue(vm.getDeposit() > 0);
+        assertTrue("deposit > 0", vm.getDeposit() > 0);
         vm.returnCoins();
         // Empty
-        assertTrue(vm.getDeposit() == 0);
+        assertTrue("deposit == 0", vm.getDeposit() == 0);
     }
 
     @org.junit.Test
     public void test_2() {
         VendingMachine vm = new VendingMachine();
         // Empty
-        assertTrue("deposit > 0", vm.getDeposit() == 0);
-        assertTrue(vm.getCoffee().getCount() > 0);
+        assertTrue("deposit == 0", vm.getDeposit() == 0);
+        assertTrue("coffeeCount == 0", vm.getCoffee().getCount() == 0);
+        setCoffee(vm);
+        // HasCoffee
+        assertTrue("coffeeCount > 0", vm.getCoffee().getCount() > 0);
+
+        insertCoin(vm);
+        // HasCoffeeAndCoins
+
+        // Satisfy purchase precondition:
+        while (vm.getDeposit() < COFFEE_PRICE) {
+            insertCoin(vm);
+        }
+
+        assertTrue("deposit >= coffeePrice", vm.getDeposit() >= COFFEE_PRICE);
+
+        // Purchase
+        int deposit = vm.getDeposit();
+        boolean isPurchased = vm.purchase("Coffee");
+        assertTrue("Coffee purchased", isPurchased);
+
+        int change = vm.getChange();
+        assertTrue("Deposit reduced", change == deposit - COFFEE_PRICE);
+
+        // Return coins
+        vm.returnCoins();
+        // HasCoffee
+        assertTrue(vm.getDeposit() == 0);
+    }
+
+    @org.junit.Test
+    public void test_3() {
+        VendingMachine vm = new VendingMachine();
+        // Empty
+        assertTrue("deposit == 0", vm.getDeposit() == 0);
+        assertTrue("coffeeCount == 0", vm.getCoffee().getCount() == 0);
         setCoffee(vm);
         // HasCoffee
         assertTrue("coffeeCount > 0", vm.getCoffee().getCount() > 0);
@@ -64,8 +98,43 @@ public class TestFSM {
 
         assertTrue("deposit >= coffeePrice", vm.getDeposit() >= COFFEE_PRICE);
 
+        // Continue purchasing until out of coffee
+        while (vm.getCoffee().getCount() > 0) {
+            while (vm.getDeposit() < COFFEE_PRICE) {
+                insertCoin(vm);
+            }
+            vm.purchase("Coffee");
+        }
+
+        // Empty
+        assertTrue("Out of coffee", vm.getCoffee().getCount() < 1);
+    }
+
+    @org.junit.Test
+    public void test_4() {
+        VendingMachine vm = new VendingMachine();
+        // Empty
+        assertTrue("deposit == 0", vm.getDeposit() == 0);
+        insertCoin(vm);
+        // HasDeposit
+        assertTrue("deposit > 0", vm.getDeposit() > 0);
+
+        setCoffee(vm);
+        // HasCoffeeAndCoins
+        assertTrue("coffeeCount > 0", vm.getCoffee().getCount() > 0);
+
+        // Satisfy purchase precondition:
+        while (vm.getDeposit() < COFFEE_PRICE) {
+            insertCoin(vm);
+        }
+
         // Purchase
+        int deposit = vm.getDeposit();
         boolean isPurchased = vm.purchase("Coffee");
         assertTrue("Coffee purchased", isPurchased);
+
+        int change = vm.getChange();
+        // HasCoffeeAndCoins
+        assertTrue("Deposit reduced", change == deposit - COFFEE_PRICE);
     }
 }
