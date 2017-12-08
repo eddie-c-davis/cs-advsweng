@@ -1,17 +1,18 @@
 package test;
 
-import gui.VendingGUI;
 import junit.extensions.jfcunit.JFCTestCase;
 import junit.extensions.jfcunit.JFCTestHelper;
 import junit.extensions.jfcunit.eventdata.MouseEventData;
 import junit.extensions.jfcunit.finder.NamedComponentFinder;
+
+import gui.VendingGUI;
+
 import vending.Coin;
 import vending.Drink;
 import vending.VendingMachine;
 
-import javax.swing.*;
-
 import java.awt.*;
+import javax.swing.*;
 
 import static junit.framework.TestCase.assertTrue;
 

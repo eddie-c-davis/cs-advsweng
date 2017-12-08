@@ -1,0 +1,12 @@
+,,,
+,Live mutant # ,Description of live mutant,Why it was not killed
+,AOIS_20,calculateChange(int price) {  change = deposit – price--; …,price-- is a post decrement applied to an argument so does not affect the output.
+,AOIS_16,calculateChange(int price) { change = deposit-- - price;…,"As above, post-decrement applied so output is not affected."
+,AOIS_19,calculateChange(int price) { change = deposit – price++;…,"This time, a post-increment is applied to price, but output remains unaffected."
+,AOIS_15,calculateChange(int price) {  change = deposit++ - price;,Another case of post-increment applied that does not affect the output of the calculationn.
+,AOIS_4,setDrink(…) { … coffee.setCount( newCount-- ); ...},Yet another post-decrement of a local variable that does not affect the class state.
+,AOIS_1,setDrink(…) { … coffee.setPrice( newPrice++ ); …},Another case of post-incrementing a local variable without affecting the class state.
+,AOIS_3,setDrink(…) { … coffee.setCount( newCount++ ); …},Another case of post-incrementing a local variable without affecting the class state.
+,AOIS_6,setDrink(…) { …  juice.setPrice( newPrice-- ); …},Another case of post-decrementing a local variable without affecting the class state.
+,AOIS_11,setDrink(…) { … soda.setCount( newCount++ ); …},Another case of post-incrementing a local variable without affecting the class state.
+,AOIS_12,setDrink(…) { … soda.setCount( newCount-- ); …},Another case of post-decrementing a local variable without affecting the class state.
