@@ -20,14 +20,26 @@ public class TestFSM {
     private final int JUICE_COUNT = 2;
     private final int SODA_COUNT = 5;
 
-    private final int NUM_COINS = 4;
+    private final int MAX_COINS = SODA_PRICE;
+    private final int MAX_DRINKS = 10;
+
     private final Coin[] COINS = new Coin[] {Coin.NICKEL, Coin.DIME, Coin.QUARTER, Coin.DOLLAR};
 
     private int _coinIndex = 0;
 
+    private void insertCoins(VendingMachine vm, int price) {
+        int nCoins = 0;
+        while (vm.getDeposit() < price && nCoins < MAX_COINS) {
+            insertCoin(vm);
+            nCoins += 1;
+        }
+
+        assertTrue("Reached deposit amount: " + price, nCoins < MAX_COINS);
+    }
+
     private void insertCoin(VendingMachine vm) {
         vm.insertCoin(COINS[_coinIndex]);
-        _coinIndex = (_coinIndex + 1) % NUM_COINS;
+        _coinIndex = (_coinIndex + 1) % COINS.length;
     }
 
     private void setCoffee(VendingMachine vm) {
@@ -40,6 +52,16 @@ public class TestFSM {
 
     private void setSoda(VendingMachine vm) {
         vm.setDrink("Soda", SODA_PRICE, SODA_COUNT);
+    }
+
+    private void purchaseAll(VendingMachine vm, Drink drink) {
+        int nDrinks = 0;
+        while (drink.getCount() > 0 && nDrinks < MAX_DRINKS) {
+            insertCoins(vm, drink.getPrice());
+            vm.purchase(drink.getName());
+        }
+
+        assertTrue("Purchased all " + drink.getName(), nDrinks < MAX_DRINKS);
     }
 
     @org.junit.Test
@@ -69,9 +91,7 @@ public class TestFSM {
         // HasCoffeeAndCoins
 
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < COFFEE_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, COFFEE_PRICE);
 
         assertTrue("deposit >= coffeePrice", vm.getDeposit() >= COFFEE_PRICE);
 
@@ -101,20 +121,14 @@ public class TestFSM {
 
         insertCoin(vm);
         // HasCoffeeAndCoins
+
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < COFFEE_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, COFFEE_PRICE);
 
         assertTrue("deposit >= coffeePrice", vm.getDeposit() >= COFFEE_PRICE);
 
         // Continue purchasing until out of coffee
-        while (vm.getCoffee().getCount() > 0) {
-            while (vm.getDeposit() < COFFEE_PRICE) {
-                insertCoin(vm);
-            }
-            vm.purchase("Coffee");
-        }
+        purchaseAll(vm, vm.getCoffee());
 
         // Empty
         assertTrue("Out of coffee", vm.getCoffee().getCount() < 1);
@@ -134,9 +148,7 @@ public class TestFSM {
         assertTrue("coffeeCount > 0", vm.getCoffee().getCount() > 0);
 
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < COFFEE_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, COFFEE_PRICE);
 
         // Purchase
         int deposit = vm.getDeposit();
@@ -162,9 +174,7 @@ public class TestFSM {
         // HasJuiceAndCoins
 
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < JUICE_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, JUICE_PRICE);
 
         assertTrue("deposit >= juicePrice", vm.getDeposit() >= JUICE_PRICE);
 
@@ -194,20 +204,14 @@ public class TestFSM {
 
         insertCoin(vm);
         // HasJuiceAndCoins
+
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < JUICE_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, JUICE_PRICE);
 
         assertTrue("deposit >= juicePrice", vm.getDeposit() >= JUICE_PRICE);
 
         // Continue purchasing until out of juice
-        while (vm.getJuice().getCount() > 0) {
-            while (vm.getDeposit() < JUICE_PRICE) {
-                insertCoin(vm);
-            }
-            vm.purchase("Juice");
-        }
+        purchaseAll(vm, vm.getJuice());
 
         // Empty
         assertTrue("Out of juice", vm.getJuice().getCount() < 1);
@@ -227,9 +231,7 @@ public class TestFSM {
         assertTrue("juiceCount > 0", vm.getJuice().getCount() > 0);
 
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < JUICE_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, JUICE_PRICE);
 
         // Purchase
         int deposit = vm.getDeposit();
@@ -255,9 +257,7 @@ public class TestFSM {
         // HasSodaAndCoins
 
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < SODA_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, SODA_PRICE);
 
         assertTrue("deposit >= sodaPrice", vm.getDeposit() >= SODA_PRICE);
 
@@ -287,20 +287,14 @@ public class TestFSM {
 
         insertCoin(vm);
         // HasSodaAndCoins
+
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < SODA_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, SODA_PRICE);
 
         assertTrue("deposit >= sodaPrice", vm.getDeposit() >= SODA_PRICE);
 
         // Continue purchasing until out of soda
-        while (vm.getSoda().getCount() > 0) {
-            while (vm.getDeposit() < SODA_PRICE) {
-                insertCoin(vm);
-            }
-            vm.purchase("Soda");
-        }
+        purchaseAll(vm, vm.getSoda());
 
         // Empty
         assertTrue("Out of soda", vm.getSoda().getCount() < 1);
@@ -320,9 +314,7 @@ public class TestFSM {
         assertTrue("sodaCount > 0", vm.getSoda().getCount() > 0);
 
         // Satisfy purchase precondition:
-        while (vm.getDeposit() < SODA_PRICE) {
-            insertCoin(vm);
-        }
+        insertCoins(vm, SODA_PRICE);
 
         // Purchase
         int deposit = vm.getDeposit();

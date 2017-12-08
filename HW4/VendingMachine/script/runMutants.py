@@ -10,6 +10,9 @@ def main():
     # Collect the mujava mutants...
     muDir = sys.argv[1]
     srcDir = sys.argv[2]
+    testRunner = sys.argv[3]
+    nTests = sys.argv[4]
+
     binDir = srcDir.replace('src/', 'bin/')
     cpDir = binDir[0:binDir.rfind('/')]
 
@@ -17,8 +20,11 @@ def main():
     #CLASSPATH=/usr/share/java/junit4-4.12.jar:/home/edavis/Work/AdvSWEng/Assignments/HW4/VendingMachine/bin
     os.environ['CLASSPATH'] = '/usr/share/java/junit4-4.12.jar:%s' % cpDir
 
-    testCmd = 'java test.TestRunner'
-    testPass = '9/9 tests passed'
+    testCmd = 'java test.' + testRunner
+    testPass = nTests + '/' + nTests + ' tests passed'
+
+    nMutants = 0
+    nKilled = 0
 
     for (root, dirs, files) in os.walk(muDir):
         for dir in dirs:
@@ -56,11 +62,19 @@ def main():
                             print(testCmd)
                             bytes = sub.check_output(testCmd.split(' '), env=os.environ, stderr=sub.STDOUT)
                             output = bytes.decode()
+
+                            nMutants += 1
                             if output.startswith(testPass):
                                 # All tests pass, the mutant lives!
                                 print("Mutant '" + muName + "' lives!")
                             else:
+                                nKilled += 1
                                 print(output)
+
+    print("=======================================")
+    print("  Mutation Score: %g" % (float(nKilled) / float(nMutants)))
+    print("=======================================")
+
 
 try:
     main()
