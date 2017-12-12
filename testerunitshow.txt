@@ -1,0 +1,56 @@
+KI_SYSTEM  (4098) unit #1
+    Model     10001002: S600 Series Parametric Tester
+    Serial    QMO4293
+    Revision  S600 V5.1.0p11
+        KI kernel                        S600 V5.1.0p11
+        KI kernel compatibility key      k5
+        OS                               5.4
+        OS (kernel)                      WIND version 2.5
+FAKE1      (4260) unit #1
+    Model     100010a4: Fake instrument
+    Serial    NA
+    Revision  NA
+TIMER1     (4256) unit #1
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER2     (4257) unit #2
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER3     (4258) unit #3
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER4     (4259) unit #4
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER5     (4290) unit #5
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER6     (4291) unit #6
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER7     (4292) unit #7
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER8     (4293) unit #8
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+TIMER9     (4294) unit #9
+    Model     100010a0: Internal timer
+    Serial    NA
+    Revision  NA
+VCM1       (8236) unit #1
+    Model     0fe40065: 60101-VCM VXI Control Module
+    Serial    NA
+    Revision  A01
+        Processor                        Artesyn BajaPPC
+        BSP                              HKBAJA750 1.1/1.2/8-KI5/KI4
+        Boot ROM                         HKBAJA750 1.1/1.2/8-KI5/KI4
+        Firmware                         A01
